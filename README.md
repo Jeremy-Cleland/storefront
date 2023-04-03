@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# LAB - Virtual Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An online shopping portal for a fictional store
 
-## Available Scripts
+## Authors: Jeremy Cleland
 
-In the project directory, you can run:
+## Problem Domain
 
-### `npm start`
+Our application will power an online storefront that will allow our users to browse our product offerings by category, place items in their shopping cart, and check-out when they are ready to make their purchase
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Core Requirements 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The core requirements and functionality are as follows:
 
-### `npm test`
+- Display a list of our product categories
+- Display a listing of products for each category, when the category  is selected
+- From the product listings:
+  - Click to view a full detail page about the product
+  - Add the product to your shopping cart
+- Shopping cart (simple version) always visible on screen
+- Full shopping cart and check out screen available from main navigation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technical Requirements
 
-### `npm run build`
+The application will be created with the following overall architecture and methodologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. React
+1. ES6 Classes
+1. Redux Store for Application State
+1. Deployed API with MongoDB storage for storing categories and products
+1. Superagent or Axios for performing API Requests
+1. Material UI for layout and styling
+1. Test Driven Development, using Jest
+1. Deployment to a cloud provider (Netlify, Amplify, or GitHub Pages)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Phase 1: Application Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Basic React Application
+- Redux State Management
+- State managed in memory
+- Material UI Components & Styling
 
-### `npm run eject`
+- ### User Stories
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  - As a user, I expect to see a list of available product categories in the store so that I can easily browse products.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - As a user, I want to choose a category and see a list of all available products matching that category.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  - As a user, I want a clean, easy to use user interface so that I can shop the online store with confidence.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- #### Phase 1 Technical Requirements / Notes
 
-## Learn More
+  - Create a visually appealing site using Material UI.
+  - Use a Redux Store to manage the state of categories and items in the store.
+  - Display a list of categories from state.
+  - When the user selects (clicks on) a category:
+    - Identify that category as selected (change of class/display).
+    - Show a list of products associated with the category.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- #### Phase 1 Application Structure 
 
-### Code Splitting
+  ├── .gitignore
+├── .eslintrc.json
+├── __tests__
+│   ├── app.test.js
+│   ├── cart.test.js
+├── src
+│   ├── index.js
+│   ├── app.js
+│   ├── store
+│   │   ├── index.js
+│   │   ├── categories.js 
+│   │   ├── products.js
+│   ├── components
+│   │   ├── header
+│   │   │   └── header.js
+│   │   ├── footer
+│   │   │   └── footer.js
+└── package.json
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Phase 2: Shopping Cart
 
-### Analyzing the Bundle Size
+- Add items to a shopping cart
+- Update quantities
+- Remove items from the cart
+- Show the cart in real-time on the UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Phase 3: Live Data
 
-### Making a Progressive Web App
+- Connect the application a live API
+- Persist changes to products based on cart activity.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Phase 4: Checkout & Detail Pages
 
-### Advanced Configuration
+- Refactor the store to use the latest Redux design pattern (Redux Toolkit)
+- Add a cart checkout page
+- Add a product details page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Application Structure
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+├── .gitignore
+├── .eslintrc.json
+├── __tests__
+│   ├── app.test.js
+│   ├── cart.test.js
+├── src
+│   ├── index.js
+│   ├── app.js
+│   ├── store
+│   │   ├── index.js
+│   │   ├── categories.js
+│   │   ├── products.js
+│   │   ├── cart.js
+│   ├── components
+│   │   ├── storefront
+│   │   │   └── categories.js
+│   │   │   └── current-category.js
+│   │   │   └── products.js
+│   │   │   └── storefront.js
+│   │   ├── products
+│   │   │   └── details.js
+│   │   ├── cart
+│   │   │   └── simplecart.js
+│   │   │   └── checkout.js
+│   │   ├── header
+│   │   │   └── header.js
+│   │   ├── footer
+│   │   │   └── footer.js
+└── package.json

@@ -18,7 +18,7 @@ const Header = () => {
             variant="h1"
             component="h1"
             noWrap
-            sx={{ flexGrow: 1, alignSelf: "flex-end" }}
+            sx={{ flexGrow: 1, alignSelf: "flex-end", pb: "2vh" }}
           >
             Store Front
           </Typography>

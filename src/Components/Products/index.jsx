@@ -44,7 +44,10 @@ const Products = (props) => {
                     {product.name}
                   </Typography>
                   <Typography variant="body1" color="#f6f6f6">
-                    {product.regularprice}
+                    {product.regularPrice}
+                  </Typography>
+                  <Typography variant="body1" color="#f6f6f6">
+                    {product.salePrice}
                   </Typography>
                   <Typography variant="body1" color="red">
                     {product.category}

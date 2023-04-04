@@ -10,9 +10,10 @@ import StorefrontIcon from "@mui/icons-material/Storefront";
 const CategoryBreadcrumb = styled(Chip)(({ theme }) => {
   return {
     backgroundColor: "#141517",
-    color: "#A6A7AB",
+    color: "#f6f6f6",
     "&:hover, &:focus": {
-      backgroundColor: "#141517",
+      backgroundColor: "#303030",
+      color: "#f6f6f6",
     },
     "&:active": {
       boxShadow: theme.shadows[1],
@@ -35,21 +36,20 @@ const Categories = (props) => {
       <Box
         component="nav"
         sx={{
-          py: 1,
-          px: 2,
-          pt: 3,
-          width: "100%",
+          py: 4,
+          width: "100vw",
           display: "flex",
           justifyContent: "space-evenly",
           flexDirection: "row",
           alignItems: "center",
-          margin: "0 auto",
-          paddingBottom: "10px",
-          backgroundColor: "#1A1B1E",
         }}
       >
         <Container>
-          <Typography variant="h5" component="h5" sx={{ mb: 2 }}>
+          <Typography
+            variant="h5"
+            component="h5"
+            sx={{ mb: 2, color: "#f6f6f6" }}
+          >
             Browse our Categories
           </Typography>
           <Breadcrumbs aria-label="breadcrumb">
@@ -60,11 +60,6 @@ const Categories = (props) => {
               name="all"
               icon={
                 <StorefrontIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
-              }
-              sx={
-                props.activeCategory === "all"
-                  ? { color: "orange" }
-                  : { color: "white" }
               }
               onClick={() => {
                 props.dispatch({ type: "RESET" });
@@ -77,11 +72,6 @@ const Categories = (props) => {
               name="computers-tablets"
               icon={
                 <DesktopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
-              }
-              sx={
-                props.activeCategory === "computers-tablets"
-                  ? { color: "orange" }
-                  : { color: "white" }
               }
               onClick={() => {
                 props.dispatch({
@@ -98,11 +88,6 @@ const Categories = (props) => {
               icon={
                 <LaptopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
               }
-              sx={
-                props.activeCategory === "macbooks"
-                  ? { color: "orange" }
-                  : { color: "white" }
-              }
               onClick={() => {
                 props.dispatch({ type: "ACTIVE", payload: "macbooks" });
               }}
@@ -112,14 +97,8 @@ const Categories = (props) => {
               href="#"
               label="Tablets"
               name="tablets"
-              value="tablets"
               icon={
                 <TabletMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
-              }
-              sx={
-                props.activeCategory === "tablets"
-                  ? { color: "orange" }
-                  : { color: "white" }
               }
               onClick={() => {
                 props.dispatch({ type: "ACTIVE", payload: "tablets" });
@@ -130,14 +109,8 @@ const Categories = (props) => {
               href="#"
               label="Headphones"
               name="headphones"
-              value="headphones"
               icon={
                 <HeadphonesIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
-              }
-              sx={
-                props.activeCategory === "headphones"
-                  ? { color: "organge" }
-                  : { color: "white" }
               }
               onClick={() => {
                 props.dispatch({ type: "ACTIVE", payload: "headphones" });

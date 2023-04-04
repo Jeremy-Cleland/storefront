@@ -1,11 +1,11 @@
-import { createStore, combineReducers } from "redux";
+import { combineReducers } from "redux";
+import { legacy_createStore as createStore } from "redux";
 import { composeWithDevTools } from "@redux-devtools/extension";
-import categoriesReducer from "./categories.js";
-import productsReducer from "./products.js";
-import activeCategoryReducer from "./active-category.js";
+import categoriesReducer from "./categories.jsx";
+import productsReducer from "./products.jsx";
+import activeCategoryReducer from "./active-category.jsx";
 
 let storeReducers = combineReducers({
-  // reducers
   categories: categoriesReducer,
   products: productsReducer,
   activeCategory: activeCategoryReducer,

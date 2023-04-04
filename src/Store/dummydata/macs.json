@@ -1,0 +1,778 @@
+{
+  "from": 1,
+  "to": 18,
+  "currentPage": 1,
+  "total": 42,
+  "totalPages": 3,
+  "queryTime": "0.014",
+  "totalTime": "0.037",
+  "partial": false,
+  "canonicalUrl": "/v1/products(manufacturer=\"apple\"&(categoryPath.id=abcat0501000))?show=categoryPath.id,categoryPath.name,condition,customerReviewAverage,description,image,longDescription,manufacturer,name,onlineAvailability,regularPrice,relatedProducts.sku,salePrice,shortDescription,sku,thumbnailImage,url&sort=condition&pageSize=18&format=json&facet=bestSellingRank,10&apiKey=Xe3NKaQKE4vx25rAVqONSqZz",
+  "products": [
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050012",
+          "name": "iMac"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/5721/5721940_sd.jpg",
+      "longDescription": "The 27-inch iMac now comes packed with the latest processors, faster memory, powerful graphics, and ultrafast SSD storage. And the gorgeous Retina 5K display is better than ever with True Tone technology and optional nano-texture glass. With macOS and all its built-in apps, the 27-inch iMac is the total creative package&#8212;powered up.",
+      "manufacturer": "Apple",
+      "name": "Apple - 27\" iMac® with Retina 5K display - Intel Core i5 (3.1GHz) - 8GB Memory - 256GB SSD - Silver",
+      "onlineAvailability": false,
+      "regularPrice": 1799.99,
+      "relatedProducts": [],
+      "salePrice": 1799.99,
+      "shortDescription": null,
+      "sku": 5721940,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/5721/5721940_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/5721940/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050012",
+          "name": "iMac"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/5999/5999006_sd.jpg",
+      "longDescription": "The 27-inch iMac now comes packed with the latest processors, faster memory, powerful graphics, and ultrafast SSD storage. And the gorgeous Retina 5K display is better than ever with True Tone technology and optional nano-texture glass. With macOS and all its built-in apps, the 27-inch iMac is the total creative package&#8212;powered up.",
+      "manufacturer": "Apple",
+      "name": "Apple - 27\" iMac® with Retina 5K display - Intel Core i5 (3.3GHz) - 8GB Memory - 512GB SSD - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 1999.99,
+      "relatedProducts": [],
+      "salePrice": 1499.99,
+      "shortDescription": null,
+      "sku": 5999006,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/5999/5999006_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/5999006/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050012",
+          "name": "iMac"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6200/6200723_sd.jpg",
+      "longDescription": "The 27-inch iMac now comes packed with one of the latest processors, faster memory, powerful graphics, and ultrafast SSD storage. And the gorgeous Retina 5K display is better with True Tone technology and optional nano-texture glass. With macOS and all its built-in apps, the 27-inch iMac is the total creative package - powered up.",
+      "manufacturer": "Apple",
+      "name": "Apple - 27\" iMac® with Retina 5K display (Latest Model) - Intel Core i7 (3.8GHz) - 8GB Memory - 512GB SSD - Silver",
+      "onlineAvailability": false,
+      "regularPrice": 2299.99,
+      "relatedProducts": [],
+      "salePrice": 2299.99,
+      "shortDescription": null,
+      "sku": 6200723,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6200/6200723_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6200723/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050012",
+          "name": "iMac"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6200/6200724_sa.jpg",
+      "longDescription": "iMac Pro features powerful processors and graphics, along with advanced memory and storage in an all-in-one design&#8212;so the most demanding professionals can turn their biggest ideas into their greatest work.",
+      "manufacturer": "Apple",
+      "name": "Apple - 27\" iMac Pro with Retina 5K display - Intel Xeon W - 32GB Memory - 1TB SSD - Black",
+      "onlineAvailability": false,
+      "regularPrice": 4999.99,
+      "relatedProducts": [],
+      "salePrice": 3999.99,
+      "shortDescription": null,
+      "sku": 6200724,
+      "thumbnailImage": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6200/6200724_s.gif",
+      "url": "https://api.bestbuy.com/click/-/6200724/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050015",
+          "name": "Mac mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.5,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6200/6200726_sd.jpg",
+      "longDescription": "Now with M2 Pro, Mac mini crushes compute&#8209;intensive tasks like editing massive images and 8K ProRes video. And with a wide array of ports to connect all your favorite peripherals, Mac mini is up for anything.",
+      "manufacturer": "Apple",
+      "name": "Apple - Mac mini Desktop - M2 Pro Chip - 16GB Memory - 512GB SSD (Latest Model) - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 1299,
+      "relatedProducts": [],
+      "salePrice": 1299,
+      "shortDescription": null,
+      "sku": 6200726,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6200/6200726_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6200726/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat1594754368122",
+          "name": "Mini PCs"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.6,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6200/6200729_sd.jpg",
+      "longDescription": "Eighth-generation 6-core processor. Fast 2666MHz DDR4 memory. A variety of ports, including Thunderbolt 3, HDMI 2.0, and available 10Gb Ethernet.* And all-flash storage that's ultrafast, so you can load giant files and launch apps in an instant. The reengineered Mac mini is the best performing yet. Ready for the desktop. And beyond.",
+      "manufacturer": "Apple",
+      "name": "Apple - Mac mini Desktop - Intel Core i5 - 8GB Memory - 512GB Solid State Drive - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 1099.99,
+      "relatedProducts": [],
+      "salePrice": 824.99,
+      "shortDescription": null,
+      "sku": 6200729,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6200/6200729_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6200729/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": null,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6393/6393522_sd.jpg",
+      "longDescription": "Fuel your creativity with this Apple iMac all-in-one computer. The Intel Core i7 processor and 16GB of RAM handle tasks easily, while the 512GB SSD offers fast boots and data access, letting you launch applications quickly. This 21.5-inch Apple iMac all-in-one computer includes a Magic Keyboard and Magic Mouse 2 for an organized desk and smooth operation.",
+      "manufacturer": "Apple",
+      "name": "Apple - 21.5\" All-In-One - Intel Core i7 - 16GB Memory - 512GB SSD - Silver",
+      "onlineAvailability": false,
+      "regularPrice": 2200,
+      "relatedProducts": [],
+      "salePrice": 1980.99,
+      "shortDescription": null,
+      "sku": 6393522,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6393/6393522_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6393522/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050016",
+          "name": "Mac Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": null,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6400/6400303_sd.jpg",
+      "longDescription": "With the greatest performance, expansion, and configurability yet, the new Mac Pro is extreme in every way. Featuring an Intel Xeon W processor configurable up to 28 cores. Up to four AMD Radeon Pro Vega II GPUs for the most powerful graphics ever in a Mac&#185;. Up to 1.5TB of ultrafast memory&#178;. Eight PCI Express slots available for expansion and customization. All inside a stainless steel space frame with a removable aluminum housing. It's a Mac that lets a wide range of professionals push the limits of what's possible.",
+      "manufacturer": "Apple",
+      "name": "Apple - Mac Pro Desktop - 8-core - Intel Xeon W - 96GB Memory - 2TB SSD - Silver",
+      "onlineAvailability": false,
+      "regularPrice": 10199.99,
+      "relatedProducts": [],
+      "salePrice": 10199.99,
+      "shortDescription": null,
+      "sku": 6400303,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6400/6400303_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6400303/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050015",
+          "name": "Mac mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.7,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6427/6427497_sd.jpg",
+      "longDescription": "The Apple M1 chip takes Mac mini, the most versatile, do-it-all Mac desktop, to a whole new level of performance. With up to 3x faster CPU performance, up to 6x faster graphics, a powerful Neural Engine with up to 15x faster machine learning, and superfast unified memory &#8212; all in an ultracompact design.* So you can create, work, and play on Mac mini with speed and power beyond anything you ever imagined.",
+      "manufacturer": "Apple",
+      "name": "Mac mini Desktop - Apple M1 chip - 8GB Memory - 256GB SSD - Silver",
+      "onlineAvailability": false,
+      "regularPrice": 549,
+      "relatedProducts": [],
+      "salePrice": 549,
+      "shortDescription": null,
+      "sku": 6427497,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6427/6427497_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6427497/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat1594754368122",
+          "name": "Mini PCs"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.7,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6427/6427499_sd.jpg",
+      "longDescription": "The Apple M1 chip takes Mac mini, the most versatile, do-it-all Mac desktop, to a whole new level of performance. With up to 3x faster CPU performance, up to 6x faster graphics, a powerful Neural Engine with up to 15x faster machine learning, and superfast unified memory &#8212; all in an ultracompact design.* So you can create, work, and play on Mac mini with speed and power beyond anything you ever imagined.",
+      "manufacturer": "Apple",
+      "name": "Mac mini Desktop - Apple M1 chip - 8GB Memory - 512GB SSD - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 749,
+      "relatedProducts": [],
+      "salePrice": 749,
+      "shortDescription": null,
+      "sku": 6427499,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6427/6427499_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6427499/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050015",
+          "name": "Mac mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.7,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6427/6427500_sd.jpg",
+      "longDescription": "Now with M2, Mac mini packs the speed you need. From rich presentations to immersive gaming, M2 flies through work and play. And with a wide array of ports to connect all your favorite peripherals, Mac mini is up for anything.",
+      "manufacturer": "Apple",
+      "name": "Apple - Mac mini Desktop - M2 Chip - 8GB Memory - 256GB SSD (Latest Model) - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 599,
+      "relatedProducts": [],
+      "salePrice": 599,
+      "shortDescription": null,
+      "sku": 6427500,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6427/6427500_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6427500/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050015",
+          "name": "Mac mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6427/6427502_sd.jpg",
+      "longDescription": "Now with M2, Mac mini packs the speed you need. From rich presentations to immersive gaming, M2 flies through work and play. And with a wide array of ports to connect all your favorite peripherals, Mac mini is up for anything.",
+      "manufacturer": "Apple",
+      "name": "Apple - Mac mini Desktop - M2 Chip - 8GB Memory - 512GB SSD (Latest Model) - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 799,
+      "relatedProducts": [],
+      "salePrice": 799,
+      "shortDescription": null,
+      "sku": 6427502,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6427/6427502_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6427502/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050012",
+          "name": "iMac"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450874_sd.jpg",
+      "longDescription": "You've never seen a computer like this before. With a strikingly thin design made possible by the Apple M1 chip. An immersive 24-inch 4.5K Retina display with over a billion colors that gives you the big picture in stunning detail.&#185; The best camera and mics ever in a Mac so you look and sound your best. And roomfilling, six-speaker sound that takes movies and music to the next level. It works seamlessly with iPhone so texts and calls go right to your iMac. And with a spectrum of colors to choose from, it's the all-in-one that's all yours.",
+      "manufacturer": "Apple",
+      "name": "24\" iMac® with Retina 4.5K display - Apple M1 - 8GB Memory - 256GB SSD (Latest Model) - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 1299.99,
+      "relatedProducts": [],
+      "salePrice": 1299.99,
+      "shortDescription": null,
+      "sku": 6450874,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450874_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450874/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050012",
+          "name": "iMac"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450916_sd.jpg",
+      "longDescription": "You've never seen a computer like this before. With a strikingly thin design made possible by the Apple M1 chip. An immersive 24-inch 4.5K Retina display with over a billion colors that gives you the big picture in stunning detail.&#185; The best camera and mics ever in a Mac so you look and sound your best. And roomfilling, six-speaker sound that takes movies and music to the next level. It works seamlessly with iPhone so texts and calls go right to your iMac. And with a spectrum of colors to choose from, it's the all-in-one that's all yours.",
+      "manufacturer": "Apple",
+      "name": "24\" iMac® with Retina 4.5K display - Apple M1 - 8GB Memory - 256GB SSD (Latest Model) - Blue",
+      "onlineAvailability": false,
+      "regularPrice": 1299.99,
+      "relatedProducts": [],
+      "salePrice": 1299.99,
+      "shortDescription": null,
+      "sku": 6450916,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450916_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450916/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050012",
+          "name": "iMac"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450917_sd.jpg",
+      "longDescription": "You've never seen a computer like this before. With a strikingly thin design made possible by the Apple M1 chip. An immersive 24-inch 4.5K Retina display with over a billion colors that gives you the big picture in stunning detail.&#185; The best camera and mics ever in a Mac so you look and sound your best. And roomfilling, six-speaker sound that takes movies and music to the next level. It works seamlessly with iPhone so texts and calls go right to your iMac. And with a spectrum of colors to choose from, it's the all-in-one that's all yours.",
+      "manufacturer": "Apple",
+      "name": "24\" iMac® with Retina 4.5K display - Apple M1 - 8GB Memory - 256GB SSD (Latest Model) - Green",
+      "onlineAvailability": true,
+      "regularPrice": 1299.99,
+      "relatedProducts": [],
+      "salePrice": 1299.99,
+      "shortDescription": null,
+      "sku": 6450917,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450917_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450917/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050012",
+          "name": "iMac"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450918_sd.jpg",
+      "longDescription": "You've never seen a computer like this before. With a strikingly thin design made possible by the Apple M1 chip. An immersive 24-inch 4.5K Retina display with over a billion colors that gives you the big picture in stunning detail.&#185; The best camera and mics ever in a Mac so you look and sound your best. And roomfilling, six-speaker sound that takes movies and music to the next level. It works seamlessly with iPhone so texts and calls go right to your iMac. And with a spectrum of colors to choose from, it's the all-in-one that's all yours.",
+      "manufacturer": "Apple",
+      "name": "24\" iMac® with Retina 4.5K display - Apple M1 - 8GB Memory - 256GB SSD (Latest Model) - Pink",
+      "onlineAvailability": true,
+      "regularPrice": 1299.99,
+      "relatedProducts": [],
+      "salePrice": 1299.99,
+      "shortDescription": null,
+      "sku": 6450918,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450918_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450918/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050012",
+          "name": "iMac"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450919_sd.jpg",
+      "longDescription": "You've never seen a computer like this before. With a strikingly thin design made possible by the Apple M1 chip. An immersive 24-inch 4.5K Retina display with over a billion colors that gives you the big picture in stunning detail.&#185; The best camera and mics ever in a Mac so you look and sound your best. And roomfilling, six-speaker sound that takes movies and music to the next level. It works seamlessly with iPhone so texts and calls go right to your iMac. And with a spectrum of colors to choose from, it's the all-in-one that's all yours.",
+      "manufacturer": "Apple",
+      "name": "24\" iMac® with Retina 4.5K display - Apple M1 - 8GB Memory - 256GB SSD - w/Touch ID (Latest Model) - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 1499.99,
+      "relatedProducts": [],
+      "salePrice": 1499.99,
+      "shortDescription": null,
+      "sku": 6450919,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450919_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450919/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0501000",
+          "name": "Desktop & All-in-One Computers"
+        },
+        {
+          "id": "pcmcat143400050013",
+          "name": "All Desktops"
+        },
+        {
+          "id": "pcmcat268200050003",
+          "name": "Apple iMac, Mini & Mac Pro"
+        },
+        {
+          "id": "pcmcat378600050012",
+          "name": "iMac"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450920_sd.jpg",
+      "longDescription": "You've never seen a computer like this before. With a strikingly thin design made possible by the Apple M1 chip. An immersive 24-inch 4.5K Retina display with over a billion colors that gives you the big picture in stunning detail.The best camera and mics ever in a Mac so you look and sound your best. And roomfilling, six-speaker sound that takes movies and music to the next level. It works seamlessly with iPhone so texts and calls go right to your iMac. And with a spectrum of colors to choose from, it's the all-in-one that's all yours.",
+      "manufacturer": "Apple",
+      "name": "24\" iMac® with Retina 4.5K display - Apple M1 - 8GB Memory - 256GB SSD - w/Touch ID (Latest Model) - Blue",
+      "onlineAvailability": false,
+      "regularPrice": 1499.99,
+      "relatedProducts": [],
+      "salePrice": 1499.99,
+      "shortDescription": null,
+      "sku": 6450920,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450920_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450920/pdp"
+    }
+  ],
+  "facets": {
+    "bestSellingRank": {}
+  }
+}

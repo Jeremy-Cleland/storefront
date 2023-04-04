@@ -1,0 +1,790 @@
+{
+  "from": 1,
+  "to": 18,
+  "currentPage": 1,
+  "total": 134,
+  "totalPages": 8,
+  "queryTime": "0.012",
+  "totalTime": "0.035",
+  "partial": false,
+  "canonicalUrl": "/v1/products(manufacturer=\"apple\"&(categoryPath.id=abcat0502000))?show=categoryPath.id,categoryPath.name,condition,customerReviewAverage,description,image,longDescription,manufacturer,name,onlineAvailability,regularPrice,relatedProducts.sku,salePrice,shortDescription,sku,thumbnailImage,url&sort=condition&pageSize=18&format=json&facet=bestSellingRank,10&apiKey=Xe3NKaQKE4vx25rAVqONSqZz",
+  "products": [
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050008",
+          "name": "MacBook Air"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/5721/5721600_sd.jpg",
+      "longDescription": "Apple's thinnest and lightest notebook gets supercharged with the Apple M1 chip. Tackle your projects with the blazing-fast 8-core CPU. Take graphics-intensive apps and games to the next level with the 7-core GPU. And accelerate machine learning tasks with the 16-core Neural Engine. All with a silent, fanless design and the longest battery life ever &#8212; up to 18 hours.&#185; MacBook Air. Still perfectly portable. Just a lot more powerful.",
+      "manufacturer": "Apple",
+      "name": "MacBook Air 13.3\" Laptop - Apple M1 chip - 8GB Memory - 256GB SSD - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 999.99,
+      "relatedProducts": [],
+      "salePrice": 999.99,
+      "shortDescription": null,
+      "sku": 5721600,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/5721/5721600_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/5721600/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": null,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6394/6394205_sd.jpg",
+      "longDescription": "Apple MacBook Pro Laptop: Revitalize your creative mindset using this MacBook Pro laptop. An octa-core Intel Core i9 processor and 32GB of RAM deliver impressively fast speeds across your programs, and the 16-inch Retina display delivers a huge workspace for all your needs. This MacBook Pro laptop has a 100Wh battery for all-day use and an AMD Radeon 5300M graphics card for almost any graphical need.",
+      "manufacturer": "Apple",
+      "name": "Apple - MacBook Pro 16\" Display with Touch Bar - Intel Core i9 - 32GB Memory - 512GB SSD - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 3099,
+      "relatedProducts": [],
+      "salePrice": 2479.99,
+      "shortDescription": null,
+      "sku": 6394205,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6394/6394205_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6394205/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": null,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6394/6394471_sd.jpg",
+      "longDescription": "Apple MacBook Pro Laptop: Power through the biggest of jobs using this MacBook Pro laptop. Rapid Intel Core i7 processing and 8GB of RAM ensure outstandingly fast speeds for applications, while the 13-inch Retina display ensures maximum vibrancy and detail. This MacBook Pro laptop has lots of high-performance storage for your files and Intel Iris Plus Graphics 645 integrated graphics for easy creative editing.",
+      "manufacturer": "Apple",
+      "name": "Apple - MacBook Pro - 13\" Display with Touch Bar - Intel Core i7 - 8GB Memory - 1TB SSD - Silver",
+      "onlineAvailability": false,
+      "regularPrice": 2199,
+      "relatedProducts": [],
+      "salePrice": 1759.99,
+      "shortDescription": null,
+      "sku": 6394471,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6394/6394471_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6394471/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050008",
+          "name": "MacBook Air"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6418/6418597_sd.jpg",
+      "longDescription": "Apple's thinnest and lightest notebook gets supercharged with the Apple M1 chip. Tackle your projects with the blazing-fast 8-core CPU. Take graphics-intensive apps and games to the next level with the 7-core GPU. And accelerate machine learning tasks with the 16-core Neural Engine. All with a silent, fanless design and the longest battery life ever &#8212; up to 18 hours.&#185; MacBook Air. Still perfectly portable. Just a lot more powerful.",
+      "manufacturer": "Apple",
+      "name": "MacBook Air 13.3\" Laptop - Apple M1 chip - 8GB Memory - 256GB SSD - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 999.99,
+      "relatedProducts": [],
+      "salePrice": 999.99,
+      "shortDescription": null,
+      "sku": 6418597,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6418/6418597_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6418597/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050008",
+          "name": "MacBook Air"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6418/6418599_sd.jpg",
+      "longDescription": "Apple's thinnest and lightest notebook gets supercharged with the Apple M1 chip. Tackle your projects with the blazing-fast 8-core CPU. Take graphics-intensive apps and games to the next level with the 7-core GPU. And accelerate machine learning tasks with the 16-core Neural Engine. All with a silent, fanless design and the longest battery life ever &#8212; up to 18 hours.&#185; MacBook Air. Still perfectly portable. Just a lot more powerful.",
+      "manufacturer": "Apple",
+      "name": "MacBook Air 13.3\" Laptop - Apple M1 chip - 8GB Memory - 256GB SSD - Gold",
+      "onlineAvailability": true,
+      "regularPrice": 999.99,
+      "relatedProducts": [],
+      "salePrice": 999.99,
+      "shortDescription": null,
+      "sku": 6418599,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6418/6418599_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6418599/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6418/6418601_sd.jpg",
+      "longDescription": "The Apple M1 chip redefines the 13-inch MacBook Pro. Featuring an 8-core CPU that flies through complex workflows in photography, coding, video editing, and more. Incredible 8-core GPU that crushes graphics-intensive tasks and enables super-smooth gaming. An advanced 16-core Neural Engine for more machine learning power in your favorite apps. Superfast unified memory for fluid performance. And the longest-ever battery life in a Mac at up to 20 hours.&#178; It's Apple's most popular pro notebook. Way more performance and way more pro.",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 13.3\" Laptop - Apple M1 chip - 8GB Memory - 256GB SSD - Space Gray",
+      "onlineAvailability": false,
+      "regularPrice": 1299.99,
+      "relatedProducts": [],
+      "salePrice": 1104.99,
+      "shortDescription": null,
+      "sku": 6418601,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6418/6418601_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6418601/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6418/6418603_sd.jpg",
+      "longDescription": "The Apple M1 chip redefines the 13-inch MacBook Pro. Featuring an 8-core CPU that flies through complex workflows in photography, coding, video editing, and more. Incredible 8-core GPU that crushes graphics-intensive tasks and enables super-smooth gaming. An advanced 16-core Neural Engine for more machine learning power in your favorite apps. Superfast unified memory for fluid performance. And the longest-ever battery life in a Mac at up to 20 hours.&#178; It's Apple's most popular pro notebook. Way more performance and way more pro.",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 13.3\" Laptop - Apple M1 chip - 8GB Memory - 512GB SSD - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 1499.99,
+      "relatedProducts": [],
+      "salePrice": 1274.99,
+      "shortDescription": null,
+      "sku": 6418603,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6418/6418603_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6418603/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450853_sd.jpg",
+      "longDescription": "The new MacBook Pro delivers game-changing performance for pro users. With the powerful M1 Pro to supercharge pro-level workflows while getting amazing battery life.&#185; And with an immersive 14-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.&#178;",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 14\" Laptop - Apple M1 Pro chip - 16GB Memory - 512GB SSD - Space Gray",
+      "onlineAvailability": false,
+      "regularPrice": 1999,
+      "relatedProducts": [],
+      "salePrice": 1599,
+      "shortDescription": null,
+      "sku": 6450853,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450853_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450853/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450854_sd.jpg",
+      "longDescription": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.&#185; And with an immersive 14-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.&#178;",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 14\" Laptop - Apple M1 Pro chip - 16GB Memory - 1TB SSD - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 2499,
+      "relatedProducts": [],
+      "salePrice": 1999,
+      "shortDescription": null,
+      "sku": 6450854,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450854_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450854/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450856_sd.jpg",
+      "longDescription": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.&#185; And with an immersive 14-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.&#178;",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 14\" Laptop - Apple M1 Pro chip - 16GB Memory - 512GB SSD - Silver",
+      "onlineAvailability": false,
+      "regularPrice": 1999,
+      "relatedProducts": [],
+      "salePrice": 1599,
+      "shortDescription": null,
+      "sku": 6450856,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450856_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450856/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450857_sd.jpg",
+      "longDescription": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.&#185; And with an immersive 14-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.&#178;",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 14\" Laptop - Apple M1 Pro chip - 16GB Memory - 1TB SSD - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 2499,
+      "relatedProducts": [],
+      "salePrice": 1999,
+      "shortDescription": null,
+      "sku": 6450857,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450857_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450857/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450858_sd.jpg",
+      "longDescription": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.&#185; And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.&#178;",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 16\" Laptop - Apple M1 Pro chip - 16GB Memory - 512GB SSD - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 2499,
+      "relatedProducts": [],
+      "salePrice": 1999,
+      "shortDescription": null,
+      "sku": 6450858,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450858_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450858/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450859_sd.jpg",
+      "longDescription": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.&#185; And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.&#178;",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 16\" Laptop - Apple M1 Pro chip - 16GB Memory - 1TB SSD - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 2699,
+      "relatedProducts": [],
+      "salePrice": 2199,
+      "shortDescription": null,
+      "sku": 6450859,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450859_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450859/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450860_sd.jpg",
+      "longDescription": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.&#185; And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.&#178;",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 16\" Laptop - Apple M1 Max chip - 32GB Memory - 1TB SSD - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 3499,
+      "relatedProducts": [],
+      "salePrice": 2799,
+      "shortDescription": null,
+      "sku": 6450860,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450860_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450860/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450861_sd.jpg",
+      "longDescription": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.&#185; And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.&#178;",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 16\" Laptop - Apple M1 Pro chip - 16GB Memory - 512GB SSD - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 2499,
+      "relatedProducts": [],
+      "salePrice": 1999,
+      "shortDescription": null,
+      "sku": 6450861,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450861_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450861/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450863_sd.jpg",
+      "longDescription": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.&#185; And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.&#178;",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 16\" Laptop - Apple M1 Pro chip - 16GB Memory - 1TB SSD - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 2699,
+      "relatedProducts": [],
+      "salePrice": 2199,
+      "shortDescription": null,
+      "sku": 6450863,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450863_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450863/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450865_sd.jpg",
+      "longDescription": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.&#185; And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.&#178;",
+      "manufacturer": "Apple",
+      "name": "MacBook Pro 16\" Laptop - Apple M1 Max chip - 32GB Memory - 1TB SSD - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 3499,
+      "relatedProducts": [],
+      "salePrice": 2799,
+      "shortDescription": null,
+      "sku": 6450865,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450865_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450865/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "abcat0502000",
+          "name": "Laptops"
+        },
+        {
+          "id": "pcmcat138500050001",
+          "name": "All Laptops"
+        },
+        {
+          "id": "pcmcat247400050001",
+          "name": "MacBooks"
+        },
+        {
+          "id": "pcmcat378600050009",
+          "name": "MacBook Pro"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/6450/6450866_sd.jpg",
+      "longDescription": "The 16-inch MacBook Pro with M2 Pro and M2 Max takes power and speed to the next level, whether it's on battery or plugged in. With a stunning Liquid Retina XDR display, all the ports you need, and all-day battery life&#8212;this pro laptop goes anywhere you need.",
+      "manufacturer": "Apple",
+      "name": "Apple - MacBook Pro 16\" Laptop - M2 Pro chip - 16GB Memory - 1TB SSD (Latest Model) - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 2699,
+      "relatedProducts": [],
+      "salePrice": 2699,
+      "shortDescription": null,
+      "sku": 6450866,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/6450/6450866_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/6450866/pdp"
+    }
+  ],
+  "facets": {
+    "bestSellingRank": {}
+  }
+}

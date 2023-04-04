@@ -2,23 +2,14 @@
 
 An online shopping portal for a fictional store
 
-----
-
 ## Authors: Jeremy Cleland
 
-----
-
+## [Code Sandbox- Deployment](https://i7c31w-3000.csb.app/)
 ## Problem Domain
 
 Our application will power an online storefront that will allow our users to browse our product offerings by category, place items in their shopping cart, and check-out when they are ready to make their purchase
 
-----
-
-## [CodeSandbox Deployment](https://i7c31w-3000.csb.app/)
-
-----
-
-## Core Requirements
+## Core Requirements 
 
 The core requirements and functionality are as follows:
 
@@ -29,8 +20,6 @@ The core requirements and functionality are as follows:
   - Add the product to your shopping cart
 - Shopping cart (simple version) always visible on screen
 - Full shopping cart and check out screen available from main navigation
-
-----
 
 ## Technical Requirements
 
@@ -44,8 +33,6 @@ The application will be created with the following overall architecture and meth
 1. Material UI for layout and styling
 1. Test Driven Development, using Jest
 1. Deployment to a cloud provider (Netlify, Amplify, or GitHub Pages)
-
-----
 
 ## Phase 1: Application Setup
 
@@ -72,7 +59,7 @@ The application will be created with the following overall architecture and meth
     - Show a list of products associated with the category.
 
 
-- #### Phase 1 Application Structure
+- #### Phase 1 Application Structure 
 
   ├── .gitignore
 ├── .eslintrc.json
@@ -84,7 +71,7 @@ The application will be created with the following overall architecture and meth
 │   ├── app.js
 │   ├── store
 │   │   ├── index.js
-│   │   ├── categories.js
+│   │   ├── categories.js 
 │   │   ├── products.js
 │   ├── components
 │   │   ├── header
@@ -93,8 +80,6 @@ The application will be created with the following overall architecture and meth
 │   │   │   └── footer.js
 └── package.json
 
-----
-
 ## Phase 2: Shopping Cart
 
 - Add items to a shopping cart
@@ -102,22 +87,16 @@ The application will be created with the following overall architecture and meth
 - Remove items from the cart
 - Show the cart in real-time on the UI
 
-----
-
 ## Phase 3: Live Data
 
 - Connect the application a live API
 - Persist changes to products based on cart activity.
-
-----
 
 ## Phase 4: Checkout & Detail Pages
 
 - Refactor the store to use the latest Redux design pattern (Redux Toolkit)
 - Add a cart checkout page
 - Add a product details page
-
-----
 
 ## Application Structure
 

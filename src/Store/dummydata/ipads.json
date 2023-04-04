@@ -1,0 +1,694 @@
+{
+  "from": 1,
+  "to": 18,
+  "currentPage": 1,
+  "total": 360,
+  "totalPages": 20,
+  "queryTime": "0.013",
+  "totalTime": "0.036",
+  "partial": false,
+  "canonicalUrl": "/v1/products(manufacturer=\"apple\"&(categoryPath.id=pcmcat209000050006))?show=categoryPath.id,categoryPath.name,condition,customerReviewAverage,description,image,longDescription,manufacturer,name,onlineAvailability,regularPrice,relatedProducts.sku,salePrice,shortDescription,sku,thumbnailImage,url&sort=condition&pageSize=18&format=json&facet=bestSellingRank,10&apiKey=Xe3NKaQKE4vx25rAVqONSqZz",
+  "products": [
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050008",
+          "name": "All Tablets"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 5,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4901/4901804_sd.jpg",
+      "longDescription": "iPad Pro features the powerful Apple M1 chip with next-level performance and all-day battery life.&#179; The Liquid Retina display on the 11-inch iPad Pro is not only gorgeous, but super portable.&#185; And a front camera with Center Stage keeps you in frame automatically during video calls. iPad Pro has pro cameras and a LiDAR Scanner for stunning photos, videos, and immersive AR. Thunderbolt for connecting to high-performance accessories. And you can add Apple Pencil for note-taking, drawing, and marking up documents, and the Magic Keyboard for a responsive typing experience and trackpad.&#8308;",
+      "manufacturer": "Apple",
+      "name": "Apple - 11-Inch iPad Pro with Wi-Fi - 2TB - Space Gray",
+      "onlineAvailability": false,
+      "regularPrice": 1899.99,
+      "relatedProducts": [],
+      "salePrice": 1530.99,
+      "shortDescription": null,
+      "sku": 4901804,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4901/4901804_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4901804/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat1490110513760",
+          "name": "iPad"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4901/4901809_sd.jpg",
+      "longDescription": "Powerful. Easy to use. Versatile. The new iPad has a beautiful 10.2-inch Retina display, powerful A13 Bionic chip, an Ultra Wide front camera with Center Stage, and works with Apple Pencil and the Smart Keyboard.&#185; iPad lets you do more, more easily. All for an incredible value.",
+      "manufacturer": "Apple",
+      "name": "Apple - 10.2-Inch iPad with Wi-Fi - 64GB - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 329.99,
+      "relatedProducts": [],
+      "salePrice": 329.99,
+      "shortDescription": null,
+      "sku": 4901809,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4901/4901809_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4901809/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat1490110513760",
+          "name": "iPad"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4901/4901811_sd.jpg",
+      "longDescription": "Powerful. Easy to use. Versatile. The new iPad has a beautiful 10.2-inch Retina display, powerful A13 Bionic chip, an Ultra Wide front camera with Center Stage, and works with Apple Pencil and the Smart Keyboard.&#185; iPad lets you do more, more easily. All for an incredible value.",
+      "manufacturer": "Apple",
+      "name": "Apple - 10.2-Inch iPad with Wi-Fi - 64GB - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 329.99,
+      "relatedProducts": [],
+      "salePrice": 329.99,
+      "shortDescription": null,
+      "sku": 4901811,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4901/4901811_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4901811/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat1490110513760",
+          "name": "iPad"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4901/4901816_sd.jpg",
+      "longDescription": "Powerful. Easy to use. Versatile. The new iPad has a beautiful 10.2-inch Retina display, powerful A13 Bionic chip, an Ultra Wide front camera with Center Stage, and works with Apple Pencil and the Smart Keyboard.&#185; iPad lets you do more, more easily. All for an incredible value.",
+      "manufacturer": "Apple",
+      "name": "Apple - 10.2-Inch iPad with Wi-Fi - 256GB - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 479.99,
+      "relatedProducts": [],
+      "salePrice": 479.99,
+      "shortDescription": null,
+      "sku": 4901816,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4901/4901816_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4901816/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat1490110513760",
+          "name": "iPad"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4901/4901868_sd.jpg",
+      "longDescription": "Powerful. Easy to use. Versatile. The new iPad has a beautiful 10.2-inch Retina display, powerful A13 Bionic chip, an Ultra Wide front camera with Center Stage, and works with Apple Pencil and the Smart Keyboard.&#185; iPad lets you do more, more easily. All for an incredible value.",
+      "manufacturer": "Apple",
+      "name": "Apple - 10.2-Inch iPad with Wi-Fi - 256GB - Silver",
+      "onlineAvailability": true,
+      "regularPrice": 479.99,
+      "relatedProducts": [],
+      "salePrice": 479.99,
+      "shortDescription": null,
+      "sku": 4901868,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4901/4901868_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4901868/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat361600050007",
+          "name": "iPad mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4901/4901902_sd.jpg",
+      "longDescription": "The new iPad mini. Featuring an all-screen design with an 8.3-inch Liquid Retina display.&#185; Powerful A15 Bionic chip with Neural Engine. A 12MP Ultra Wide front camera with Center Stage. USB-C connectivity. Take notes, mark up documents, or capture your biggest ideas with Apple Pencil (2nd generation) that attaches magnetically and charges wirelessly.&#178;",
+      "manufacturer": "Apple",
+      "name": "Apple - iPad mini (Latest Model) with Wi-Fi - 64GB - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 499.99,
+      "relatedProducts": [],
+      "salePrice": 499.99,
+      "shortDescription": null,
+      "sku": 4901902,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4901/4901902_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4901902/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat361600050007",
+          "name": "iPad mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4901/4901904_sd.jpg",
+      "longDescription": "The new iPad mini. Featuring an all-screen design with an 8.3-inch Liquid Retina display.&#185; Powerful A15 Bionic chip with Neural Engine. A 12MP Ultra Wide front camera with Center Stage. USB-C connectivity. Take notes, mark up documents, or capture your biggest ideas with Apple Pencil (2nd generation) that attaches magnetically and charges wirelessly.&#178;",
+      "manufacturer": "Apple",
+      "name": "Apple - iPad mini (Latest Model) with Wi-Fi - 64GB - Starlight",
+      "onlineAvailability": true,
+      "regularPrice": 499.99,
+      "relatedProducts": [],
+      "salePrice": 499.99,
+      "shortDescription": null,
+      "sku": 4901904,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4901/4901904_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4901904/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat361600050007",
+          "name": "iPad mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4901/4901905_sd.jpg",
+      "longDescription": "The new iPad mini. Featuring an all-screen design with an 8.3-inch Liquid Retina display.&#185; Powerful A15 Bionic chip with Neural Engine. A 12MP Ultra Wide front camera with Center Stage. USB-C connectivity. Take notes, mark up documents, or capture your biggest ideas with Apple Pencil (2nd generation) that attaches magnetically and charges wirelessly.&#178;",
+      "manufacturer": "Apple",
+      "name": "Apple - iPad mini (Latest Model) with Wi-Fi - 64GB - Purple",
+      "onlineAvailability": true,
+      "regularPrice": 499.99,
+      "relatedProducts": [],
+      "salePrice": 499.99,
+      "shortDescription": null,
+      "sku": 4901905,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4901/4901905_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4901905/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat361600050007",
+          "name": "iPad mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4901/4901906_sd.jpg",
+      "longDescription": "The new iPad mini. Featuring an all-screen design with an 8.3-inch Liquid Retina display.&#185; Powerful A15 Bionic chip with Neural Engine. A 12MP Ultra Wide front camera with Center Stage. USB-C connectivity. Take notes, mark up documents, or capture your biggest ideas with Apple Pencil (2nd generation) that attaches magnetically and charges wirelessly.&#178;",
+      "manufacturer": "Apple",
+      "name": "Apple - iPad mini (Latest Model) with Wi-Fi - 256GB - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 649.99,
+      "relatedProducts": [],
+      "salePrice": 649.99,
+      "shortDescription": null,
+      "sku": 4901906,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4901/4901906_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4901906/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat361600050007",
+          "name": "iPad mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4904/4904502_sd.jpg",
+      "longDescription": "The new iPad mini. Featuring an all-screen design with an 8.3-inch Liquid Retina display.&#185; Powerful A15 Bionic chip with Neural Engine. A 12MP Ultra Wide front camera with Center Stage. USB-C connectivity. Take notes, mark up documents, or capture your biggest ideas with Apple Pencil (2nd generation) that attaches magnetically and charges wirelessly.&#178;",
+      "manufacturer": "Apple",
+      "name": "Apple - iPad mini (Latest Model) with Wi-Fi - 256GB - Starlight",
+      "onlineAvailability": true,
+      "regularPrice": 649.99,
+      "relatedProducts": [],
+      "salePrice": 649.99,
+      "shortDescription": null,
+      "sku": 4904502,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4904/4904502_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4904502/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat361600050007",
+          "name": "iPad mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4904/4904800_sd.jpg",
+      "longDescription": "The new iPad mini. Featuring an all-screen design with an 8.3-inch Liquid Retina display.&#185; Powerful A15 Bionic chip with Neural Engine. A 12MP Ultra Wide front camera with Center Stage. USB-C connectivity. Take notes, mark up documents, or capture your biggest ideas with Apple Pencil (2nd generation) that attaches magnetically and charges wirelessly.&#178;",
+      "manufacturer": "Apple",
+      "name": "Apple - iPad mini (Latest Model) with Wi-Fi - 256GB - Purple",
+      "onlineAvailability": true,
+      "regularPrice": 649.99,
+      "relatedProducts": [],
+      "salePrice": 649.99,
+      "shortDescription": null,
+      "sku": 4904800,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4904/4904800_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4904800/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat361600050007",
+          "name": "iPad mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4904/4904804_sd.jpg",
+      "longDescription": "The new iPad mini. Featuring an all-screen design with an 8.3-inch Liquid Retina display.&#185; Powerful A15 Bionic chip with Neural Engine. A 12MP Ultra Wide front camera with Center Stage. USB-C connectivity. Take notes, mark up documents, or capture your biggest ideas with Apple Pencil (2nd generation) that attaches magnetically and charges wirelessly.&#178;",
+      "manufacturer": "Apple",
+      "name": "Apple - iPad mini (Latest Model) with Wi-Fi - 64GB - Pink",
+      "onlineAvailability": true,
+      "regularPrice": 499.99,
+      "relatedProducts": [],
+      "salePrice": 499.99,
+      "shortDescription": null,
+      "sku": 4904804,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4904/4904804_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4904804/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050007",
+          "name": "Apple iPad"
+        },
+        {
+          "id": "pcmcat361600050007",
+          "name": "iPad mini"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.8,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4906/4906205_sd.jpg",
+      "longDescription": "The new iPad mini. Featuring an all-screen design with an 8.3-inch Liquid Retina display.&#185; Powerful A15 Bionic chip with Neural Engine. A 12MP Ultra Wide front camera with Center Stage. USB-C connectivity. Take notes, mark up documents, or capture your biggest ideas with Apple Pencil (2nd generation) that attaches magnetically and charges wirelessly.&#178;",
+      "manufacturer": "Apple",
+      "name": "Apple - iPad mini (Latest Model) with Wi-Fi - 256GB - Pink",
+      "onlineAvailability": true,
+      "regularPrice": 649.99,
+      "relatedProducts": [],
+      "salePrice": 649.99,
+      "shortDescription": null,
+      "sku": 4906205,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4906/4906205_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4906205/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050008",
+          "name": "All Tablets"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4906/4906404_sd.jpg",
+      "longDescription": "iPad Air. With an immersive 10.9-inch Liquid Retina display.&#185; The breakthrough Apple M1 chip delivers faster performance, making iPad Air a creative and mobile gaming powerhouse. Featuring Touch ID, advanced cameras, blazing-fast 5G&#178; and Wi-Fi 6, USB-C, and support for Magic Keyboard and Apple Pencil (2nd generation).&#179;",
+      "manufacturer": "Apple",
+      "name": "Apple - 10.9-Inch iPad Air - Latest Model - (5th Generation) with Wi-Fi - 64GB - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 599.99,
+      "relatedProducts": [],
+      "salePrice": 499.99,
+      "shortDescription": null,
+      "sku": 4906404,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4906/4906404_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4906404/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050008",
+          "name": "All Tablets"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4906/4906416_sd.jpg",
+      "longDescription": "iPad Air. With an immersive 10.9-inch Liquid Retina display.&#185; The breakthrough Apple M1 chip delivers faster performance, making iPad Air a creative and mobile gaming powerhouse. Featuring Touch ID, advanced cameras, blazing-fast 5G&#178; and Wi-Fi 6, USB-C, and support for Magic Keyboard and Apple Pencil (2nd generation).&#179;",
+      "manufacturer": "Apple",
+      "name": "Apple - 10.9-Inch iPad Air - Latest Model - (5th Generation) with Wi-Fi - 64GB - Pink",
+      "onlineAvailability": true,
+      "regularPrice": 599.99,
+      "relatedProducts": [],
+      "salePrice": 499.99,
+      "shortDescription": null,
+      "sku": 4906416,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4906/4906416_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4906416/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050008",
+          "name": "All Tablets"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4906/4906800_sd.jpg",
+      "longDescription": "iPad Air. With an immersive 10.9-inch Liquid Retina display.&#185; The breakthrough Apple M1 chip delivers faster performance, making iPad Air a creative and mobile gaming powerhouse. Featuring Touch ID, advanced cameras, blazing-fast 5G&#178; and Wi-Fi 6, USB-C, and support for Magic Keyboard and Apple Pencil (2nd generation).&#179;",
+      "manufacturer": "Apple",
+      "name": "Apple - 10.9-Inch iPad Air - Latest Model - (5th Generation) with Wi-Fi - 64GB - Blue",
+      "onlineAvailability": true,
+      "regularPrice": 599.99,
+      "relatedProducts": [],
+      "salePrice": 499.99,
+      "shortDescription": null,
+      "sku": 4906800,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4906/4906800_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4906800/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050008",
+          "name": "All Tablets"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4907/4907100_sd.jpg",
+      "longDescription": "iPad Air. With an immersive 10.9-inch Liquid Retina display.&#185; The breakthrough Apple M1 chip delivers faster performance, making iPad Air a creative and mobile gaming powerhouse. Featuring Touch ID, advanced cameras, blazing-fast 5G&#178; and Wi-Fi 6, USB-C, and support for Magic Keyboard and Apple Pencil (2nd generation).&#179;",
+      "manufacturer": "Apple",
+      "name": "Apple - 10.9-Inch iPad Air - Latest Model - (5th Generation) with Wi-Fi - 64GB - Starlight",
+      "onlineAvailability": true,
+      "regularPrice": 599.99,
+      "relatedProducts": [],
+      "salePrice": 499.99,
+      "shortDescription": null,
+      "sku": 4907100,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4907/4907100_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4907100/pdp"
+    },
+    {
+      "categoryPath": [
+        {
+          "id": "cat00000",
+          "name": "Best Buy"
+        },
+        {
+          "id": "abcat0500000",
+          "name": "Computers & Tablets"
+        },
+        {
+          "id": "pcmcat209000050006",
+          "name": "Tablets"
+        },
+        {
+          "id": "pcmcat209000050008",
+          "name": "All Tablets"
+        }
+      ],
+      "condition": "New",
+      "customerReviewAverage": 4.9,
+      "description": null,
+      "image": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/4907/4907300_sd.jpg",
+      "longDescription": "iPad Air. With an immersive 10.9-inch Liquid Retina display.&#185; The breakthrough Apple M1 chip delivers faster performance, making iPad Air a creative and mobile gaming powerhouse. Featuring Touch ID, advanced cameras, blazing-fast 5G&#178; and Wi-Fi 6, USB-C, and support for Magic Keyboard and Apple Pencil (2nd generation).&#179;",
+      "manufacturer": "Apple",
+      "name": "Apple - 10.9-Inch iPad Air - Latest Model - (5th Generation) with Wi-Fi - 256GB - Space Gray",
+      "onlineAvailability": true,
+      "regularPrice": 749.99,
+      "relatedProducts": [],
+      "salePrice": 649.99,
+      "shortDescription": null,
+      "sku": 4907300,
+      "thumbnailImage": "https://pisces.bbystatic.com/prescaled/108/54/image2/BestBuy_US/images/products/4907/4907300_sd.jpg",
+      "url": "https://api.bestbuy.com/click/-/4907300/pdp"
+    }
+  ],
+  "facets": {
+    "bestSellingRank": {}
+  }
+}

@@ -16,7 +16,7 @@ const theme = createTheme({
     },
     background: {
       default: "#101113",
-      paper: "#141517",
+      paper: "#141414",
     },
   },
   typography: {
@@ -88,17 +88,21 @@ const theme = createTheme({
       fontWeight: 500,
       lineHeight: 1.75,
       letterSpacing: "0.02857em",
-      textTransform: "uppercase",
     },
   },
   shape: {
-    borderRadius: 12,
+    borderRadius: 10,
   },
   components: {
     MuiButton: {
       styleOverrides: {
         root: {
           textTransform: "none",
+          borderRadius: 10,
+          color: "#f6f6f6",
+          "&:hover": {
+            backgroundColor: "#141414",
+          },
         },
       },
     },
@@ -109,6 +113,15 @@ const theme = createTheme({
             "&.Mui-focused fieldset": {
               borderColor: "#4caf50",
             },
+          },
+        },
+      },
+    },
+    MuiContainer: {
+      styleOverrides: {
+        root: {
+          "@media (min-width: 1200px)": {
+            maxWidth: "1900px",
           },
         },
       },

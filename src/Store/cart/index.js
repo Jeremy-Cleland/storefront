@@ -8,6 +8,8 @@ const cartReducer = (state = initialState, action) => {
       return [...state, payload];
     case "REMOVE FROM CART":
       return state.filter((product) => product.sku !== payload.sku);
+    case "RESET":
+      return initialState;
     default:
       return state;
   }

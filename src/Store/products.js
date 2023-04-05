@@ -160,8 +160,6 @@ const productsReducer = (state = initialState, action) => {
 
   switch (type) {
     case "SET":
-      // let activeCategory = payload.category;
-
       return initialState.filter((product) => product.category === payload);
     case "RESET":
       return initialState;

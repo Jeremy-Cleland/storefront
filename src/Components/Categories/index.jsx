@@ -1,5 +1,6 @@
-import { connect } from "react-redux";
 import SimpleCart from "../SimpleCart";
+import { useDispatch } from "react-redux";
+// import { connect } from "react-redux";
 import { styled } from "@mui/material/styles";
 import { Box, Chip, Container, Breadcrumbs, Typography } from "@mui/material";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
@@ -23,15 +24,17 @@ const CategoryBreadcrumb = styled(Chip)(({ theme }) => {
   };
 });
 
-const mapStateToProps = (state) => {
-  return {
-    categories: state.categories,
-    products: state.products,
-    activeCategory: state.activeCategory,
-  };
-};
+// const mapStateToProps = (state) => {
+//   return {
+//     categories: state.categories,
+//     products: state.products,
+//     activeCategory: state.activeCategory,
+//   };
+// };
 
-const Categories = (props) => {
+const Categories = () => {
+  const dispatch = useDispatch();
+
   return (
     <Box
       component="nav"
@@ -60,7 +63,7 @@ const Categories = (props) => {
             name="all"
             icon={<StorefrontIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
             onClick={() => {
-              props.dispatch({ type: "RESET" });
+              dispatch({ type: "SET", payload: "All" });
             }}
           />
           <CategoryBreadcrumb
@@ -70,10 +73,7 @@ const Categories = (props) => {
             name="Desktops"
             icon={<DesktopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
             onClick={() => {
-              props.dispatch({
-                type: "SET",
-                payload: "Desktops",
-              });
+              dispatch({ type: "SET", payload: "Desktops" });
             }}
           />
           <CategoryBreadcrumb
@@ -83,10 +83,7 @@ const Categories = (props) => {
             name="MacBooks"
             icon={<LaptopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
             onClick={() => {
-              props.dispatch({
-                type: "SET",
-                payload: "MacBooks",
-              });
+              dispatch({ type: "SET", payload: "MacBooks" });
             }}
           />
           <CategoryBreadcrumb
@@ -96,7 +93,7 @@ const Categories = (props) => {
             name="Tablets"
             icon={<TabletMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
             onClick={() => {
-              props.dispatch({ type: "SET", payload: "Tablets" });
+              dispatch({ type: "SET", payload: "Tablets" });
             }}
           />
           <CategoryBreadcrumb
@@ -106,10 +103,7 @@ const Categories = (props) => {
             name="Headphones"
             icon={<HeadphonesIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
             onClick={() => {
-              props.dispatch({
-                type: "SET",
-                payload: "Headphones",
-              });
+              dispatch({ type: "SET", payload: "Headphones" });
             }}
           />
         </Breadcrumbs>
@@ -119,4 +113,6 @@ const Categories = (props) => {
   );
 };
 
-export default connect(mapStateToProps)(Categories);
+// // export default connect(mapStateToProps)(Categories);
+
+export default Categories;

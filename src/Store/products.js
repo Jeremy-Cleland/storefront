@@ -159,7 +159,7 @@ const productsReducer = (state = initialState, action) => {
   const { type, payload } = action;
 
   switch (type) {
-    case "ACTIVE CATEGORY":
+    case "SET":
       return initialState.filter((product) => product.category === payload);
     case "RESET":
       return initialState;
@@ -167,12 +167,5 @@ const productsReducer = (state = initialState, action) => {
       return state;
   }
 };
-
-// export const reset = () => {
-//   return {
-//     type: "RESET",
-//     payload: {},
-//   };
-// };
 
 export default productsReducer;

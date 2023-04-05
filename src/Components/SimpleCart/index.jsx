@@ -1,48 +1,33 @@
-import { useDispatch, connect } from "react-redux";
-import { removeFromCart } from "../../Store/cart";
-import { IconButton, styled, Typography, List, ListItem } from "@mui/material";
-import RemoveShoppingCartIcon from "@mui/icons-material/RemoveShoppingCart";
+import { useDispatch, useSelector } from "react-redux";
+import { removeFromCart } from "../../Store/actions";
+import { Button, Container } from "@mui/material";
 
-const StyledList = styled(List)(() => ({
-  width: 100,
-  display: "flex",
-  alignItems: "center",
-}));
+// const StyledList = styled(List)(() => ({
+//   width: 100,
+//   display: "flex",
+//   alignItems: "center",
+// }));
 
-const SimpleCart = (props) => {
-  const { cart } = props;
-
+const SimpleCart = () => {
   const dispatch = useDispatch();
+  const { cart } = useSelector((state) => state);
 
   return (
-    <StyledList>
-      <Typography sx={{ mt: 10 }} variant="h6">
-        Cart: ({cart.length})
-      </Typography>
-      {cart.map((product) => (
-        <ListItem key={product.sku}>
+    <Container sx={{ height: 200, width: "100vw", overflow: "scroll" }}>
+      <h5>Cart ({cart.length}) </h5>
+      {cart.map((product, index) => (
+        <p key={`cart-${index}`}>
           {product.name}
-          <IconButton
-            edge="end"
-            aria-label="delete"
+          <Button
+            variant="text"
             onClick={() => dispatch(removeFromCart(product))}
           >
-            Remove from Cart
-            <RemoveShoppingCartIcon />
-          </IconButton>
-        </ListItem>
+            X
+          </Button>
+        </p>
       ))}
-    </StyledList>
+    </Container>
   );
 };
 
-const mapStateToProps = (state) => {
-  return {
-    categories: state.categories,
-    products: state.products,
-    activeCategory: state.activeCategory,
-    cart: state.cart,
-  };
-};
-
-export default connect(mapStateToProps)(SimpleCart);
+export default SimpleCart;

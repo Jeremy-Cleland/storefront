@@ -24,12 +24,15 @@ const initialState = [
       "Our Headphones range features headphones for every occasion, including over-ear, on-ear, and in-ear headphones. We offer wireless headphones with Bluetooth connectivity and true wireless earbuds that provide a cord-free listening experience. Our noise-canceling headphones let you enjoy your music without any distractions, and our gaming headphones provide an immersive gaming experience.",
   },
 ];
+
 const categoriesReducer = (state = initialState, action) => {
   const { type, payload } = action;
 
   switch (type) {
-    case "ACTIVE CATEGORY":
+    case "SET":
       return { ...state, activeCategory: payload };
+    case "RESET":
+      return initialState;
     default:
       return state;
   }

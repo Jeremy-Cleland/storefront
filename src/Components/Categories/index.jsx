@@ -28,7 +28,6 @@ const mapStateToProps = (state) => {
     categories: state.categories,
     products: state.products,
     activeCategory: state.activeCategory,
-    cart: state.cart,
   };
 };
 
@@ -72,7 +71,7 @@ const Categories = (props) => {
             icon={<DesktopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
             onClick={() => {
               props.dispatch({
-                type: "ACTIVE CATEGORY",
+                type: "SET",
                 payload: "Desktops",
               });
             }}
@@ -85,7 +84,7 @@ const Categories = (props) => {
             icon={<LaptopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
             onClick={() => {
               props.dispatch({
-                type: "ACTIVE CATEGORY",
+                type: "SET",
                 payload: "MacBooks",
               });
             }}
@@ -97,7 +96,7 @@ const Categories = (props) => {
             name="Tablets"
             icon={<TabletMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
             onClick={() => {
-              props.dispatch({ type: "ACTIVE CATEGORY", payload: "Tablets" });
+              props.dispatch({ type: "SET", payload: "Tablets" });
             }}
           />
           <CategoryBreadcrumb
@@ -108,7 +107,7 @@ const Categories = (props) => {
             icon={<HeadphonesIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
             onClick={() => {
               props.dispatch({
-                type: "ACTIVE CATEGORY",
+                type: "SET",
                 payload: "Headphones",
               });
             }}

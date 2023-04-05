@@ -1,7 +1,7 @@
 import { connect, useDispatch } from "react-redux";
 
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
-import { addToCart } from "../../Store/cart";
+import { addToCart } from "../../Store/actions";
 
 import {
   Card,

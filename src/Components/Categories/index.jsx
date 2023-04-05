@@ -34,101 +34,89 @@ const mapStateToProps = (state) => {
 
 const Categories = (props) => {
   return (
-    <>
-      <Box
-        component="nav"
-        sx={{
-          py: 4,
-          width: "100vw",
-          display: "flex",
-          justifyContent: "space-evenly",
-          flexDirection: "row",
-          alignItems: "center",
-        }}
-      >
-        <Container>
-          <Typography
-            variant="h5"
-            component="h5"
-            sx={{ mb: 2, color: "#f6f6f6" }}
-          >
-            Browse our Categories
-          </Typography>
-          <Breadcrumbs aria-label="breadcrumb">
-            <CategoryBreadcrumb
-              component="a"
-              href="#"
-              label="All"
-              name="all"
-              icon={
-                <StorefrontIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
-              }
-              onClick={() => {
-                props.dispatch({ type: "RESET" });
-              }}
-            />
-            <CategoryBreadcrumb
-              component="a"
-              href="#"
-              label="Desktops"
-              name="Desktops"
-              icon={
-                <DesktopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
-              }
-              onClick={() => {
-                props.dispatch({
-                  type: "ACTIVE CATEGORY",
-                  payload: "Desktops",
-                });
-              }}
-            />
-            <CategoryBreadcrumb
-              component="a"
-              href="#"
-              label="MacBooks"
-              name="MacBooks"
-              icon={
-                <LaptopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
-              }
-              onClick={() => {
-                props.dispatch({
-                  type: "ACTIVE CATEGORY",
-                  payload: "MacBooks",
-                });
-              }}
-            />
-            <CategoryBreadcrumb
-              component="a"
-              href="#"
-              label="Tablets"
-              name="Tablets"
-              icon={
-                <TabletMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
-              }
-              onClick={() => {
-                props.dispatch({ type: "ACTIVE CATEGORY", payload: "Tablets" });
-              }}
-            />
-            <CategoryBreadcrumb
-              component="a"
-              href="#"
-              label="Headphones"
-              name="Headphones"
-              icon={
-                <HeadphonesIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
-              }
-              onClick={() => {
-                props.dispatch({
-                  type: "ACTIVE CATEGORY",
-                  payload: "Headphones",
-                });
-              }}
-            />
-          </Breadcrumbs>
-        </Container>
-        <SimpleCart />
-      </Box>
-    </>
+    <Box
+      component="nav"
+      sx={{
+        py: 4,
+        width: "100vw",
+        display: "flex",
+        justifyContent: "space-evenly",
+        flexDirection: "row",
+        alignItems: "center",
+      }}
+    >
+      <Container>
+        <Typography
+          variant="h5"
+          component="h5"
+          sx={{ mb: 2, color: "#f6f6f6" }}
+        >
+          Browse our Categories
+        </Typography>
+        <Breadcrumbs aria-label="breadcrumb">
+          <CategoryBreadcrumb
+            component="a"
+            href="#"
+            label="All"
+            name="all"
+            icon={<StorefrontIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
+            onClick={() => {
+              props.dispatch({ type: "RESET" });
+            }}
+          />
+          <CategoryBreadcrumb
+            component="a"
+            href="#"
+            label="Desktops"
+            name="Desktops"
+            icon={<DesktopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
+            onClick={() => {
+              props.dispatch({
+                type: "ACTIVE CATEGORY",
+                payload: "Desktops",
+              });
+            }}
+          />
+          <CategoryBreadcrumb
+            component="a"
+            href="#"
+            label="MacBooks"
+            name="MacBooks"
+            icon={<LaptopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
+            onClick={() => {
+              props.dispatch({
+                type: "ACTIVE CATEGORY",
+                payload: "MacBooks",
+              });
+            }}
+          />
+          <CategoryBreadcrumb
+            component="a"
+            href="#"
+            label="Tablets"
+            name="Tablets"
+            icon={<TabletMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
+            onClick={() => {
+              props.dispatch({ type: "ACTIVE CATEGORY", payload: "Tablets" });
+            }}
+          />
+          <CategoryBreadcrumb
+            component="a"
+            href="#"
+            label="Headphones"
+            name="Headphones"
+            icon={<HeadphonesIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
+            onClick={() => {
+              props.dispatch({
+                type: "ACTIVE CATEGORY",
+                payload: "Headphones",
+              });
+            }}
+          />
+        </Breadcrumbs>
+      </Container>
+      <SimpleCart />
+    </Box>
   );
 };
 

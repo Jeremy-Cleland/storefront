@@ -1,4 +1,4 @@
-import { connect } from "react-redux";
+import { useDispatch, connect } from "react-redux";
 import { removeFromCart } from "../../Store/cart";
 import { IconButton, styled, Typography, List, ListItem } from "@mui/material";
 import RemoveShoppingCartIcon from "@mui/icons-material/RemoveShoppingCart";
@@ -11,6 +11,9 @@ const StyledList = styled(List)(() => ({
 
 const SimpleCart = (props) => {
   const { cart } = props;
+
+  const dispatch = useDispatch();
+
   return (
     <StyledList>
       <Typography sx={{ mt: 10 }} variant="h6">
@@ -22,7 +25,7 @@ const SimpleCart = (props) => {
           <IconButton
             edge="end"
             aria-label="delete"
-            onClick={() => removeFromCart(product)}
+            onClick={() => dispatch(removeFromCart(product))}
           >
             Remove from Cart
             <RemoveShoppingCartIcon />
@@ -42,11 +45,4 @@ const mapStateToProps = (state) => {
   };
 };
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    removeFromCart: (product) =>
-      dispatch({ type: "REMOVE FROM CART", payload: product }),
-  };
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(SimpleCart);
+export default connect(mapStateToProps)(SimpleCart);

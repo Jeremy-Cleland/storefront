@@ -71,7 +71,6 @@ The application will be created with the following overall architecture and meth
     - Identify that category as selected (change of class/display).
     - Show a list of products associated with the category.
 
-
 - #### Phase 1 Application Structure
 
   ├── .gitignore
@@ -124,7 +123,7 @@ The application will be created with the following overall architecture and meth
     - Change the (0) indicator in the header to show the actual number of items in the cart.
     - Reduce the number in stock for that product.
 
-  - #### Phase 2 Application Structure
+- #### Phase 2 Application Structure
 
   ├── .github
   │   ├── workflows

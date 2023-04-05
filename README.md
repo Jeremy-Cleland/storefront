@@ -54,7 +54,7 @@ The application will be created with the following overall architecture and meth
 - State managed in memory
 - Material UI Components & Styling
 
-- ### User Stories
+- ### Phase 1 user Stories
 
   - As a user, I expect to see a list of available product categories in the store so that I can easily browse products.
 
@@ -70,7 +70,6 @@ The application will be created with the following overall architecture and meth
   - When the user selects (clicks on) a category:
     - Identify that category as selected (change of class/display).
     - Show a list of products associated with the category.
-
 
 - #### Phase 1 Application Structure
 
@@ -101,6 +100,68 @@ The application will be created with the following overall architecture and meth
 - Update quantities
 - Remove items from the cart
 - Show the cart in real-time on the UI
+
+- ### Phase 2 user Stories
+
+- #### Phase 2 Technical Requirements / Notes
+
+- Continue to use Material UI Components for layout and styling.
+- Add a “Cart” indicator to the header, like this: Cart (0).
+- Create a new Cart component to show the items in the user’s cart.
+
+- Application Architecture
+  - Add a new component to the page: `<SimpleCart />`
+    - Displays a short list (title only) of products in the cart.
+    - This should be present at all times.
+- Home Page Operation:
+  - When the user selects (clicks on) a category:
+    - Identify that category as selected.
+    - Show a list of products associated with the category, that have a quantity > 0.
+    - Add an “add to cart” button to each product.
+  - When a user clicks the “add to cart” button add the item to their cart:
+    - In the `<SimpleCart />` component, show a running list of the items in the cart (just the titles).
+    - Change the (0) indicator in the header to show the actual number of items in the cart.
+    - Reduce the number in stock for that product.
+
+- #### Phase 2 Application Structure
+
+  ├── .github
+  │   ├── workflows
+  │   │   └── node.yml
+  ├── public
+  ├── src
+  │   ├── __tests__
+  │   │   └── App.test.jsx (integration test)
+  │   ├── Components
+  │   │   ├── Categories
+  │   │   │   ├── Categories.test.jsx (unit test)
+  │   │   │   └── index.jsx
+  │   │   ├── Footer
+  │   │   │   ├── Footer.test.jsx
+  │   │   │   └── index.jsx
+  │   │   ├── Header
+  │   │   │   ├── Header.test.jsx
+  │   │   │   └── index.jsx
+  │   │   ├── SimpleCart
+  │   │   │   ├── index.jsx
+  │   │   │   └── SimpleCart.test.jsx
+  │   │   └── Products
+  │   │       ├── index.jsx
+  │   │       └── Products.test.jsx
+  │   ├── store
+  │   │   ├── cart.js
+  │   │   ├── categories.js (notice structure with unit test)
+  │   │   │   ├── categories.test.js
+  │   │   │   └── index.js
+  │   │   ├── index.js
+  │   │   └── products.js
+  │   ├── App.jsx
+  │   ├── App.scss
+  │   └── index.js
+  ├── .gitignore
+  ├── .eslintrc.json
+  ├── package.json
+  └── README.md
 
 ----
 

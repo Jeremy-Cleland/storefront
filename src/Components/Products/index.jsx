@@ -1,5 +1,8 @@
 import { connect } from "react-redux";
+import SimpleCart from "../SimpleCart";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import { addToCart } from "../../Store/cart";
+
 import {
   Box,
   // Container,
@@ -64,12 +67,21 @@ const Products = (props) => {
                       {product.description}
                     </Typography>
                     <CardActions>
-                      <Button>
+                      <Button
+                        onClick={() => addToCart(product)}
+                        variant="contained"
+                        size="small"
+                        color="primary"
+                        sx={{ margin: "5px" }}
+                      >
                         <AddShoppingCartIcon
                           fontSize="small"
                           aria-label="Add to Cart"
                           sx={{ margin: "5px" }}
                         />
+                        Add to Cart
+                      </Button>
+                      <Button onClick={() => addToCart(product)} size="small">
                         Add to Cart
                       </Button>
                     </CardActions>
@@ -78,6 +90,7 @@ const Products = (props) => {
               </Paper>
             </Grid>
           ))}
+        <SimpleCart />
       </Grid>
     </Box>
   );
@@ -87,7 +100,14 @@ const mapStateToProps = (state) => {
   return {
     products: state.products,
     activeCategory: state.activeCategory,
+    cart: state.cart.cart,
   };
 };
 
-export default connect(mapStateToProps)(Products);
+const mapDispatchToProps = (dispatch) => {
+  return {
+    addToCart: (product) => dispatch(addToCart(product)),
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Products);

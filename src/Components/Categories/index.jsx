@@ -1,4 +1,5 @@
 import { connect } from "react-redux";
+import SimpleCart from "../SimpleCart";
 import { styled } from "@mui/material/styles";
 import { Box, Chip, Container, Breadcrumbs, Typography } from "@mui/material";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
@@ -27,6 +28,7 @@ const mapStateToProps = (state) => {
     categories: state.categories,
     products: state.products,
     activeCategory: state.activeCategory,
+    cart: state.cart,
   };
 };
 
@@ -68,15 +70,15 @@ const Categories = (props) => {
             <CategoryBreadcrumb
               component="a"
               href="#"
-              label="Computers & Tablets"
-              name="computers-tablets"
+              label="Desktops"
+              name="Desktops"
               icon={
                 <DesktopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
               }
               onClick={() => {
                 props.dispatch({
-                  type: "ACTIVE",
-                  payload: "computers-tablets",
+                  type: "ACTIVE CATEGORY",
+                  payload: "Desktops",
                 });
               }}
             />
@@ -84,40 +86,47 @@ const Categories = (props) => {
               component="a"
               href="#"
               label="MacBooks"
-              name="macbooks"
+              name="MacBooks"
               icon={
                 <LaptopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
               }
               onClick={() => {
-                props.dispatch({ type: "ACTIVE", payload: "macbooks" });
+                props.dispatch({
+                  type: "ACTIVE CATEGORY",
+                  payload: "MacBooks",
+                });
               }}
             />
             <CategoryBreadcrumb
               component="a"
               href="#"
               label="Tablets"
-              name="tablets"
+              name="Tablets"
               icon={
                 <TabletMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
               }
               onClick={() => {
-                props.dispatch({ type: "ACTIVE", payload: "tablets" });
+                props.dispatch({ type: "ACTIVE CATEGORY", payload: "Tablets" });
               }}
             />
             <CategoryBreadcrumb
               component="a"
               href="#"
               label="Headphones"
-              name="headphones"
+              name="Headphones"
               icon={
                 <HeadphonesIcon fontSize="small" sx={{ color: "#f6f6f6" }} />
               }
               onClick={() => {
-                props.dispatch({ type: "ACTIVE", payload: "headphones" });
+                props.dispatch({
+                  type: "ACTIVE CATEGORY",
+                  payload: "Headphones",
+                });
               }}
             />
           </Breadcrumbs>
         </Container>
+        <SimpleCart />
       </Box>
     </>
   );

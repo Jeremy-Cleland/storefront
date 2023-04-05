@@ -6,18 +6,18 @@ const activeCategoryReducer = (state = initialState, action) => {
   const { type, payload } = action;
 
   switch (type) {
-    case "ACTIVE":
+    case "ACTIVE CATEGORY":
       return { ...state, activeCategory: payload };
     default:
       return state;
   }
 };
 
-export const activeCategory = (category) => {
-  return {
-    type: "ACTIVE",
-    payload: category,
-  };
-};
+// export const activeCategory = (category) => {
+//   return {
+//     type: "ACTIVE",
+//     payload: category,
+//   };
+// };
 
 export default activeCategoryReducer;

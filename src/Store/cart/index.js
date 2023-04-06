@@ -1,15 +1,13 @@
-const initialState = [];
+let initialState = [];
 
 const cartReducer = (state = initialState, action) => {
   const { type, payload } = action;
 
   switch (type) {
-    case "ADD TO CART":
+    case "ADD":
       return [...state, payload];
-    case "REMOVE FROM CART":
-      return state.filter((product) => product.sku !== payload.sku);
-    case "RESET":
-      return initialState;
+    case "REMOVE":
+      return state.filter((product) => product.name !== payload.name);
     default:
       return state;
   }

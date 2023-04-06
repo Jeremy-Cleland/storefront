@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
-import { addToCart } from "../../Store/actions";
+import { addItem } from "../../Store/actions";
 
 import {
   Card,
@@ -55,7 +55,7 @@ const Products = () => {
                 </Typography>
                 <CardActions>
                   <Button
-                    onClick={() => dispatch(addToCart(product))}
+                    onClick={() => dispatch(addItem(product))}
                     variant="contained"
                     size="small"
                     color="primary"

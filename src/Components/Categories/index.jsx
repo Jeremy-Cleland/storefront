@@ -8,7 +8,7 @@ import DesktopMacIcon from "@mui/icons-material/DesktopMac";
 import TabletMacIcon from "@mui/icons-material/TabletMac";
 import HeadphonesIcon from "@mui/icons-material/Headphones";
 import StorefrontIcon from "@mui/icons-material/Storefront";
-import { setCategory, reset } from "../../Store/actions";
+import { selectCategory, reset } from "../../Store/actions";
 
 const CategoryBreadcrumb = styled(Chip)(({ theme }) => {
   return {
@@ -66,7 +66,7 @@ const Categories = () => {
             name="Desktops"
             icon={<DesktopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
             onClick={() => {
-              dispatch(setCategory({ type: "SET", payload: "Desktops" }));
+              dispatch(selectCategory({ type: "SET", payload: "Desktops" }));
             }}
           />
           <CategoryBreadcrumb

@@ -1,20 +1,6 @@
-export const addToCart = (product) => {
+export const selectCategory = (category) => {
   return {
-    type: "ADD TO CART",
-    payload: product,
-  };
-};
-
-export const removeFromCart = (product) => {
-  return {
-    type: "REMOVE FROM CART",
-    payload: product,
-  };
-};
-
-export const setCategory = (category) => {
-  return {
-    type: "SET CATEGORY",
+    type: "SELECT CATEGORY",
     payload: category,
   };
 };
@@ -23,5 +9,19 @@ export const reset = () => {
   return {
     type: "RESET",
     payload: {},
+  };
+};
+
+export const addItem = (product) => {
+  return {
+    type: "ADD",
+    payload: product,
+  };
+};
+
+export const removeItem = (product) => {
+  return {
+    type: "REMOVE",
+    payload: product,
   };
 };

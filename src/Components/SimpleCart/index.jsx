@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { removeFromCart } from "../../Store/actions";
+import { removeItem } from "../../Store/actions";
 import { Button, Container } from "@mui/material";
 
 // const StyledList = styled(List)(() => ({
@@ -18,10 +18,7 @@ const SimpleCart = () => {
       {cart.map((product, index) => (
         <p key={`cart-${index}`}>
           {product.name}
-          <Button
-            variant="text"
-            onClick={() => dispatch(removeFromCart(product))}
-          >
+          <Button variant="text" onClick={() => dispatch(removeItem(product))}>
             X
           </Button>
         </p>

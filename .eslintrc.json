@@ -8,7 +8,8 @@
   ],
   "rules": {
     "react/prop-types": 0,
-    "react/react-in-jsx-scope": 0
+    "react/react-in-jsx-scope": 0,
+     "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
   },
   "plugins": ["react", "import", "jsx-a11y", "jest"],
   "parserOptions": {

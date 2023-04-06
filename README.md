@@ -229,6 +229,78 @@ The application will be created with the following overall architecture and meth
 - Add a cart checkout page
 - Add a product details page
 
+
+- ### Phase 4 user Stories
+
+  - As a user, I want to see a full detail view of a product so that I can make a more informed choice about purchasing it.
+  - As a user, I want to view my full cart and initiate the checkout process so that I can purchase my items and have them delivered.
+
+- #### Phase 4 Technical Requirements / Notes
+
+- Add routing to the application.
+- Link every product to a page that displays the full product details.
+- Link the “Cart” summary in the header to a full shopping cart page with shipping/payment forms.
+- Additionally, we will be swapping out our Redux store and replacing it with a store built using Redux Toolkit.
+
+- #### Phase 4 Application Structure
+
+- Add `<BrowserRouter />` to your application.
+  - Create a `<Storefront />`component to contain all of the components viewable form the / route.
+
+- Create a new page component: `<ProductDetails />`.
+  - Alter each product on the listing screen to have a new “Product Details” button.
+  - When clicked, `<Link to...>` /products/## where ## is the product ID.
+  - On this page, show an expanded view of the product, including placeholders for additional information such as reviews, suggestions, etc.
+
+- Create a new page component: `<ShoppingCart />`
+  - Link to this page from the Cart (x) in the header, on the /cart route.
+  - On this page, show:
+    - A summary of items in tabular format.
+    - A final order total.
+    - A form allowing the user to enter their billing/shipping address and credit card information.
+    - On submit, simply draw an alert that says “Thank you for your purchase”
+      - We will not be processing transactions or storing orders just yet.
+
+  ├── .github
+│   ├── workflows
+│   │   └── node.yml
+├── public
+├── src
+│   ├── __tests__
+│   │   └── App.test.jsx (integration test)
+│   ├── Components
+│   │   ├── Categories
+│   │   │   ├── Categories.test.jsx (unit test)
+│   │   │   └── index.jsx
+│   │   ├── Footer
+│   │   │   ├── Footer.test.jsx
+│   │   │   └── index.jsx
+│   │   ├── Header
+│   │   │   ├── Header.test.jsx
+│   │   │   └── index.jsx
+│   │   ├── SimpleCart
+│   │   │   ├── index.jsx
+│   │   │   └── SimpleCart.test.jsx
+│   │   └── Products
+│   │       ├── index.jsx
+│   │       └── Products.test.jsx
+│   ├── store
+│   │   ├── cart.js
+│   │   ├── categories (notice structure with unit test)
+│   │   │   ├── categories.test.js
+│   │   │   └── index.js
+│   │   ├── index.js
+│   │   └── products.js
+│   ├── App.jsx
+│   ├── App.scss
+│   └── index.js
+├── .gitignore
+├── .eslintrc.json
+├── package.json
+└── README.md
+
+----
+
 ----
 
 ## Application Structure

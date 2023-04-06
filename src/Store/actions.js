@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const selectCategory = (category) => {
   return {
-    type: "SELECT CATEGORY",
+    type: "SELECT_CATEGORY",
     payload: category,
   };
 };
@@ -48,21 +48,21 @@ export const updateProduct = (product) => {
     payload: product,
   };
 };
-
-export const getCategories = () => async (dispatch, getState) => {
-  let response = await axios.get(
-    "https://api-js401.herokuapp.com/api/v1/categories"
-  );
-  dispatch(setCategories(response.data.results));
-};
-
+/* eslint-disable no-unused-vars */
 export const getProducts = () => async (dispatch, getState) => {
   let response = await axios.get(
     "https://api-js401.herokuapp.com/api/v1/products"
   );
   dispatch(setProducts(response.data.results));
 };
-
+/* eslint-disable no-unused-vars */
+export const getCategories = () => async (dispatch, getState) => {
+  let response = await axios.get(
+    "https://api-js401.herokuapp.com/api/v1/categories"
+  );
+  dispatch(setCategories(response.data.results));
+};
+/* eslint-disable no-unused-vars */
 export const updateInventory = (product) => async (dispatch, getState) => {
   product.inStock--;
   let response = await axios.put(

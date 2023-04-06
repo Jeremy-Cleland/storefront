@@ -4,14 +4,15 @@ import {
   applyMiddleware,
 } from "redux";
 import { composeWithDevTools } from "@redux-devtools/extension";
-import categoriesReducer from "./categories.js";
-import productsReducer from "./products.js";
-import cartReducer from "./Cart/index.js";
-import thunk from "./Middleware/thunk.js";
+import productsReducer from "./products";
+import categoryReducer from "./categories";
+import cartReducer from "./Cart";
+
+import thunk from "./Middleware/thunk";
 
 let storeReducers = combineReducers({
-  categories: categoriesReducer,
   products: productsReducer,
+  category: categoryReducer,
   cart: cartReducer,
 });
 

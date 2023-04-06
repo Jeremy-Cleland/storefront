@@ -1,6 +1,6 @@
-import SimpleCart from "../SimpleCart";
 import { useDispatch } from "react-redux";
-
+import { useEffect } from "react";
+import { getCategories } from "../../Store/categories.js";
 import { styled } from "@mui/material/styles";
 import { Box, Chip, Container, Breadcrumbs, Typography } from "@mui/material";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
@@ -8,7 +8,9 @@ import DesktopMacIcon from "@mui/icons-material/DesktopMac";
 import TabletMacIcon from "@mui/icons-material/TabletMac";
 import HeadphonesIcon from "@mui/icons-material/Headphones";
 import StorefrontIcon from "@mui/icons-material/Storefront";
-import { setCategory, reset } from "../../Store/actions";
+import { reset } from "../../Store/actions";
+import SimpleCart from "../Cart/SimpleCart.jsx";
+import { getCategories } from "../../Store/categories";
 
 const CategoryBreadcrumb = styled(Chip)(({ theme }) => {
   return {
@@ -28,6 +30,9 @@ const CategoryBreadcrumb = styled(Chip)(({ theme }) => {
 const Categories = () => {
   const dispatch = useDispatch();
 
+  useEffect(() => {
+    dispatch(getCategories());
+  }, []);
   return (
     <Box
       component="nav"
@@ -66,7 +71,7 @@ const Categories = () => {
             name="Desktops"
             icon={<DesktopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
             onClick={() => {
-              dispatch(setCategory({ type: "SET", payload: "Desktops" }));
+              dispatch({ type: "SET", payload: "Desktops" });
             }}
           />
           <CategoryBreadcrumb

@@ -1,4 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
+import { useEffect } from "react";
+import { getProducts } from "../../Store/products.js";
 
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import { addToCart } from "../../Store/actions";
@@ -18,6 +20,10 @@ import {
 const Products = () => {
   const { products } = useSelector((state) => state);
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getProducts());
+  }, []);
 
   return (
     <Grid

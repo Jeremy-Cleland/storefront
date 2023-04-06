@@ -97,7 +97,7 @@ The application will be created with the following overall architecture and meth
 ## Phase 2: Shopping Cart
 
 - Add items to a shopping cart
-- Update quantities
+- Update Quantities
 - Remove items from the cart
 - Show the cart in real-time on the UI
 
@@ -169,6 +169,57 @@ The application will be created with the following overall architecture and meth
 
 - Connect the application a live API
 - Persist changes to products based on cart activity.
+
+- ### Phase 3 user Stories
+
+  - As a user, I want to interact with live inventory so that I have confidence that the displayed products are in stock
+  - As a user, I want to know to that when I add an item to my cart, that it is removed from inventory so that no  other users can purchase it.
+- #### Phase 3 Technical Requirements / Notes
+
+- Continue to use Material UI Components for layout and styling.
+- Load the category and product list from a remote API on page load.
+- Update the product quantity in stock when adding items to (or removing from) the cart.
+- Continue to use multiple reducers.
+
+- #### Phase 3 Application Structure
+
+  ├── .github
+│   ├── workflows
+│   │   └── node.yml
+├── public
+├── src
+│   ├── __tests__
+│   │   └── App.test.jsx (integration test)
+│   ├── Components
+│   │   ├── Categories
+│   │   │   ├── Categories.test.jsx (unit test)
+│   │   │   └── index.jsx
+│   │   ├── Footer
+│   │   │   ├── Footer.test.jsx
+│   │   │   └── index.jsx
+│   │   ├── Header
+│   │   │   ├── Header.test.jsx
+│   │   │   └── index.jsx
+│   │   ├── SimpleCart
+│   │   │   ├── index.jsx
+│   │   │   └── SimpleCart.test.jsx
+│   │   └── Products
+│   │       ├── index.jsx
+│   │       └── Products.test.jsx
+│   ├── store
+│   │   ├── cart.js
+│   │   ├── categories (notice structure with unit test)
+│   │   │   ├── categories.test.js
+│   │   │   └── index.js
+│   │   ├── index.js
+│   │   └── products.js
+│   ├── App.jsx
+│   ├── App.scss
+│   └── index.js
+├── .gitignore
+├── .eslintrc.json
+├── package.json
+└── README.md
 
 ----
 

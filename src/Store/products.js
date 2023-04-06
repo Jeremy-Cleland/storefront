@@ -159,10 +159,12 @@ const productsReducer = (state = initialState, action) => {
   const { type, payload } = action;
 
   switch (type) {
-    case "SELECT_CATEGORY":
-      return initialState.filter((product) => product.category === payload);
-    case "RESET":
-      return initialState;
+    case "SET-PRODUCTS":
+      return payload;
+    case "UPDATE-PRODUCTS":
+      return state.map((product) =>
+        product.name !== payload.name ? product : payload
+      );
     default:
       return state;
   }

@@ -8,7 +8,7 @@ import productsReducer from "./products";
 import categoryReducer from "./categories";
 import cartReducer from "./Cart";
 
-import thunk from "./Middleware/thunk";
+import thunk from "./middleware/thunk";
 
 let storeReducers = combineReducers({
   products: productsReducer,

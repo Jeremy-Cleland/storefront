@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <CssBaseline />
       <Box
-        component="Footer"
+        component="footer"
         sx={{
           px: 2,
           py: 1,

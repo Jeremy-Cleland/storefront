@@ -1,38 +1,33 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { getCategories, selectCategory } from "../../Store/actions.js";
+import { ButtonGroup, Chip, Typography, styled } from "@mui/material";
 import { useEffect } from "react";
-import { getCategories } from "../../Store/categories.js";
-import { styled } from "@mui/material/styles";
-import { Box, Chip, Container, Breadcrumbs, Typography } from "@mui/material";
-import LaptopMacIcon from "@mui/icons-material/LaptopMac";
-import DesktopMacIcon from "@mui/icons-material/DesktopMac";
-import TabletMacIcon from "@mui/icons-material/TabletMac";
-import HeadphonesIcon from "@mui/icons-material/Headphones";
-import StorefrontIcon from "@mui/icons-material/Storefront";
-import { reset } from "../../Store/actions";
 import SimpleCart from "../Cart/SimpleCart.jsx";
-import { getCategories } from "../../Store/categories";
-
-const CategoryBreadcrumb = styled(Chip)(({ theme }) => {
-  return {
-    backgroundColor: "#141517",
-    color: "#f6f6f6",
-    "&:hover, &:focus": {
-      backgroundColor: "#303030",
-      color: "#f6f6f6",
-    },
-    "&:active": {
-      boxShadow: theme.shadows[1],
-      backgroundColor: "#141517",
-    },
-  };
-});
+import { Box, Container } from "@mui/system";
 
 const Categories = () => {
   const dispatch = useDispatch();
+  const { categories } = useSelector((state) => state.category);
 
   useEffect(() => {
     dispatch(getCategories());
   }, []);
+
+  const CategoryBreadcrumb = styled(Chip)(() => {
+    return {
+      backgroundColor: "#141517",
+      color: "#f6f6f6",
+      "&:hover, &:focus": {
+        backgroundColor: "#303030",
+        color: "#f6f6f6",
+      },
+      "&:active": {
+        boxShadow:
+          "rgba(0, 0, 0, 0.12) 0px 1px 8px, rgba(0, 0, 0, 0.24) 0px 3px 4px",
+        backgroundColor: "#141517",
+      },
+    };
+  });
   return (
     <Box
       component="nav"
@@ -53,58 +48,21 @@ const Categories = () => {
         >
           Browse our Categories
         </Typography>
-        <Breadcrumbs aria-label="breadcrumb">
-          <CategoryBreadcrumb
-            component="a"
-            href="#"
-            label="All"
-            name="all"
-            icon={<StorefrontIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
-            onClick={() => {
-              dispatch(reset());
-            }}
-          />
-          <CategoryBreadcrumb
-            component="a"
-            href="#"
-            label="Desktops"
-            name="Desktops"
-            icon={<DesktopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
-            onClick={() => {
-              dispatch({ type: "SET", payload: "Desktops" });
-            }}
-          />
-          <CategoryBreadcrumb
-            component="a"
-            href="#"
-            label="MacBooks"
-            name="MacBooks"
-            icon={<LaptopMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
-            onClick={() => {
-              dispatch({ type: "SET", payload: "MacBooks" });
-            }}
-          />
-          <CategoryBreadcrumb
-            component="a"
-            href="#"
-            label="Tablets"
-            name="Tablets"
-            icon={<TabletMacIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
-            onClick={() => {
-              dispatch({ type: "SET", payload: "Tablets" });
-            }}
-          />
-          <CategoryBreadcrumb
-            component="a"
-            href="#"
-            label="Headphones"
-            name="Headphones"
-            icon={<HeadphonesIcon fontSize="small" sx={{ color: "#f6f6f6" }} />}
-            onClick={() => {
-              dispatch({ type: "SET", payload: "Headphones" });
-            }}
-          />
-        </Breadcrumbs>
+        <ButtonGroup variant="text" aria-label="text button group">
+          {categories.map((category, index) => (
+            <CategoryBreadcrumb
+              data-testid={`category-${index}`}
+              key={`category-${index}`}
+              component="a"
+              href="#"
+              label={category.name}
+              name={category.name}
+              onClick={() => dispatch(selectCategory(category.name))}
+            >
+              {category.name}
+            </CategoryBreadcrumb>
+          ))}
+        </ButtonGroup>
       </Container>
       <SimpleCart />
     </Box>

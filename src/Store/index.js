@@ -3,22 +3,21 @@ import {
   combineReducers,
   applyMiddleware,
 } from "redux";
-import { composeWithDevTools } from "@redux-devtools/extension";
-import categoriesReducer from "./categories.js";
-import productsReducer from "./products.js";
-import cartReducer from "./cart/index.js";
-import thunk from "./Middleware/thunk.js";
 
-// import activeCategoryReducer from "./active-category.js";
+import { composeWithDevTools } from "@redux-devtools/extension";
+import productsReducer from "./products";
+import categoryReducer from "./categories";
+import cartReducer from "./cart";
+
+import thunk from "./middleware/thunk.js";
 
 let storeReducers = combineReducers({
-  categories: categoriesReducer,
-  // activeCategory: activeCategoryReducer,
   products: productsReducer,
+  category: categoryReducer,
   cart: cartReducer,
 });
 
 const store = () =>
   createStore(storeReducers, composeWithDevTools(applyMiddleware(thunk)));
 
-export default store;
+export default store();

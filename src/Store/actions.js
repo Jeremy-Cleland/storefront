@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const selectCategory = (category) => {
   return {
-    type: "SELECT_CATEGORY",
+    type: "SELECT-CATEGORY",
     payload: category,
   };
 };
@@ -28,17 +28,17 @@ export const removeItem = (product) => {
   };
 };
 
-export const setProducts = (products) => {
+export const setProducts = (data) => {
   return {
     type: "SET-PRODUCTS",
-    payload: products,
+    payload: data,
   };
 };
 
-export const setCategories = (products) => {
+export const setCategories = (data) => {
   return {
     type: "SET-CATEGORIES",
-    payload: products,
+    payload: data,
   };
 };
 

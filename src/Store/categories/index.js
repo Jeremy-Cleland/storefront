@@ -7,7 +7,7 @@ const categoryReducer = (state = initialState, action) => {
   const { type, payload } = action;
 
   switch (type) {
-    case "SELECT":
+    case "SELECT-CATEGORY":
       return {
         ...state,
         activeCategory: payload,

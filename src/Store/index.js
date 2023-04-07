@@ -3,12 +3,13 @@ import {
   combineReducers,
   applyMiddleware,
 } from "redux";
+
 import { composeWithDevTools } from "@redux-devtools/extension";
 import productsReducer from "./products";
 import categoryReducer from "./categories";
-import cartReducer from "./Cart";
+import cartReducer from "./cart";
 
-import thunk from "./middleware/thunk";
+import thunk from "./middleware/thunk.js";
 
 let storeReducers = combineReducers({
   products: productsReducer,

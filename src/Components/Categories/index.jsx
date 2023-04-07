@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getCategories, selectCategory } from "../../Store/actions.js";
 import { ButtonGroup, Chip, Typography, styled } from "@mui/material";
 import { useEffect } from "react";
-import SimpleCart from "../SimpleCart";
+import SimpleCart from "../Cart/SimpleCart.jsx";
 import { Box, Container } from "@mui/system";
 
 const Categories = () => {
@@ -13,7 +13,7 @@ const Categories = () => {
     dispatch(getCategories());
   }, []);
 
-  const CategoryBreadcrumb = styled(Chip)(({ theme }) => {
+  const CategoryBreadcrumb = styled(Chip)(() => {
     return {
       backgroundColor: "#141517",
       color: "#f6f6f6",
@@ -22,12 +22,12 @@ const Categories = () => {
         color: "#f6f6f6",
       },
       "&:active": {
-        boxShadow: theme.shadows[1],
+        boxShadow:
+          "rgba(0, 0, 0, 0.12) 0px 1px 8px, rgba(0, 0, 0, 0.24) 0px 3px 4px",
         backgroundColor: "#141517",
       },
     };
   });
-
   return (
     <Box
       component="nav"

@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { addItem, updateInventory, getProducts } from "../../Store/actions.js";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 
@@ -45,24 +46,19 @@ const Products = () => {
             <Paper elevation={12}>
               <Card
                 data-testid={`product-${index}`}
-                sx={{ maxWidth: 450, height: 300, margin: 0, padding: 0 }}
+                sx={{ maxWidth: 450, margin: 0, padding: 0 }}
                 variant="outlined"
               >
                 <CardContent>
                   <Typography variant="h5">{product.name}</Typography>
                   <Typography variant="body1">{product.description}</Typography>
                   <CardMedia
-                    sx={{
-                      width: 450,
-                      maxHeight: 350,
-                      objectFit: "scale-down",
-                      margin: "auto",
-                    }}
                     component="img"
-                    image={product.image}
-                    alt={product.name}
+                    image={`https://source.unsplash.com/random?${product.name}`}
+                    title={product.name}
                   />
                 </CardContent>
+
                 <Button
                   onClick={() => dispatchHandler(product)}
                   variant="contained"
@@ -76,6 +72,13 @@ const Products = () => {
                     sx={{ margin: "5px" }}
                   />
                   Add to Cart
+                </Button>
+                <Button
+                  size="small"
+                  component={Link}
+                  to={`/productDetails/${product._id}`}
+                >
+                  Product Details
                 </Button>
               </Card>
             </Paper>

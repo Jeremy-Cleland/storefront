@@ -2,7 +2,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { getCategories, selectCategory } from "../../Store/actions.js";
 import { ButtonGroup, Chip, Typography, styled } from "@mui/material";
 import { useEffect } from "react";
-import SimpleCart from "../Cart/SimpleCart.jsx";
 import { Box, Container } from "@mui/system";
 
 const Categories = () => {
@@ -64,7 +63,6 @@ const Categories = () => {
           ))}
         </ButtonGroup>
       </Container>
-      <SimpleCart />
     </Box>
   );
 };

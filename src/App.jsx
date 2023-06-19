@@ -22,7 +22,3 @@ const App = () => {
 };
 
 export default App;
-
-// <Route exact path="/" component={Storefront} />
-// <Route exact path="/cart" component={Cart} />
-// <Route path="/product/:id" component={Product} />

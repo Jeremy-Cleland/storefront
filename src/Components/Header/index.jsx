@@ -2,13 +2,14 @@ import {
   AppBar,
   styled,
   Typography,
-  Button,
+  IconButton,
   Toolbar,
   Paper,
-  Grid,
+  Box,
 } from "@mui/material";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const Header = () => {
   const { cart } = useSelector((state) => state);
@@ -19,35 +20,37 @@ const Header = () => {
     padding: "0",
     backgroundColor: "#141517",
     "@media all": {
-      minHeight: 128,
+      maxHeight: "90px",
     },
   }));
+
   return (
-    <Grid container p={0}>
+    <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Paper elevation={12}>
           <StyledToolbar>
-            <Grid item xs>
-              <Button component={Link} to="/">
+            <Box sx={{ flexGrow: 1 }}>
+              <IconButton component={Link} to="/" color="inherit">
                 <Typography
                   variant="h1"
                   component="h1"
                   noWrap
-                  sx={{ flexGrow: 1, alignSelf: "flex-end", pb: "2vh" }}
+                  sx={{ alignSelf: "flex-end", marginLeft: "10px" }}
                 >
                   Store Front
                 </Typography>
-              </Button>
-            </Grid>
-            <Grid item xs style={{ textAlign: "right", alignSelf: "center" }}>
-              <Button component={Link} to="/cart">
-                CART ({cart.length})
-              </Button>
-            </Grid>
+              </IconButton>
+            </Box>
+            <IconButton component={Link} to="/cart" color="inherit">
+              <ShoppingCartIcon />
+              <Typography variant="subtitle1" sx={{ marginLeft: 1 }}>
+                ({cart.length})
+              </Typography>
+            </IconButton>
           </StyledToolbar>
         </Paper>
       </AppBar>
-    </Grid>
+    </Box>
   );
 };
 
